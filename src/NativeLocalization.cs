@@ -26,7 +26,7 @@ internal static class NativeLocalization
         var target = AccessTools.Method("LocalizationManager:LoadLocalizationOverrides");
         if (target == null)
         {
-            BceConsole.LogWarning("LocalizationManager.LoadLocalizationOverrides não encontrado — tradução nativa da interface vanilla desativada (versão do jogo incompatível?).");
+            BceConsole.LogWarning("LocalizationManager.LoadLocalizationOverrides não encontrado — tradução da interface vanilla desativada (versão do jogo incompatível?).");
             return;
         }
         harmony.Patch(target, postfix: new HarmonyMethod(typeof(NativeLocalization), nameof(AfterVanillaOverrides)));
@@ -49,7 +49,7 @@ internal static class NativeLocalization
         }
         catch (Exception ex)
         {
-            BceConsole.LogWarning($"Falha ao alternar a tradução nativa: {ex.Message}");
+            BceConsole.LogWarning($"Falha ao alternar a tradução: {ex.Message}");
         }
     }
 
@@ -99,7 +99,7 @@ internal static class NativeLocalization
         }
         catch (Exception ex)
         {
-            BceConsole.LogWarning($"Falha ao aplicar a tradução nativa: {ex.Message}");
+            BceConsole.LogWarning($"Falha ao aplicar a tradução: {ex.Message}");
         }
     }
 
@@ -118,7 +118,7 @@ internal static class NativeLocalization
             }
             _originals.Clear();
             _applied = false;
-            BceConsole.LogInfo("Tradução nativa da interface vanilla desativada (textos originais restaurados).");
+            BceConsole.LogInfo("Tradução da interface vanilla desativada (textos originais restaurados).");
         }
         catch (Exception ex)
         {
