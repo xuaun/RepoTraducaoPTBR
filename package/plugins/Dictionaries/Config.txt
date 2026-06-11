@@ -22,6 +22,7 @@ Vanilla Developer Mode=Modo Desenvolvedor Vanilla
 Blacklist=Lista de Bloqueio
 Blacklist Mode=Modo da Lista de Bloqueio
 Experimental=Experimental
+<NONE>=<NADA>
 
 // ── CustomGrabColor ──────────────────────────────────────────────────────────
 Change Grab Colour=Mudar a Cor da Garra
@@ -36,7 +37,38 @@ Climbing Grab Beam Match Skin=Feixe de Escalada Igual à Pele
 
 // ── Mimic ────────────────────────────────────────────────────────────────────
 Enemies=Monstros
-r:"^Enemy - (.+)$"=Inimigo - $1
+// Nomes dos monstros = mesmos apelidos do HUD.tsv (ENEMY.*). Entradas exatas, uma por
+// monstro — match exato vence o regex, e o r: abaixo fica de fallback p/ monstros novos.
+Enemy - Animal=Monstro - Animal
+Enemy - Bang=Monstro - Bombardeiro
+Enemy - Beamer=Monstro - Palhaço
+Enemy - Birthday boy=Monstro - Aniversariante
+Enemy - Bomb Thrower=Monstro - Esquadrão de Limpeza
+Enemy - Bowtie=Monstro - Gravatinha
+Enemy - Ceiling Eye=Monstro - Vigia
+Enemy - Duck=Monstro - Predador Supremo
+Enemy - Elsa=Monstro - Elsa
+Enemy - Floater=Monstro - Mentalista
+Enemy - Gnome=Monstro - Gnomo
+Enemy - Head=Monstro - Cabeçudo
+Enemy - Head Grabber=Monstro - Agarrador de Cabeça
+Enemy - Heart Hugger=Monstro - Abraça-Coração
+Enemy - Hidden=Monstro - Sr. Oculto
+Enemy - Hunter=Monstro - Caçador
+Enemy - Oogly=Monstro - Oogly
+Enemy - Robe=Monstro - Robe
+Enemy - Runner=Monstro - Ceifador
+Enemy - Shadow=Monstro - Assombração
+Enemy - Slow Mouth=Monstro - Cuspidor
+Enemy - Slow Walker=Monstro - Arrastado
+Enemy - Spinny=Monstro - Roda da Fortuna
+Enemy - Thin Man=Monstro - Criança Sombria
+Enemy - Tick=Monstro - Carrapato
+Enemy - Tricycle=Monstro - Bella
+Enemy - Tumbler=Monstro - Cozinheiro Chef
+Enemy - Upscream=Monstro - Gritador
+Enemy - Valuable Thrower=Monstro - Pirralho
+r:"^Enemy - (.+)$"=Monstro - $1
 Filter=Filtro
 Filter Enabled?=Filtro Ativado?
 Sampling Rate=Taxa de Amostragem
@@ -54,14 +86,14 @@ Esc Button Pos Y=Posição Y do Botão (Menu ESC)
 // ── MoreHead Bridge (entradas de config) ─────────────────────────────────────
 Common=Comum
 Compatibility=Compatibilidade
-Cosmetic Customizer=Customização de Cosméticos
+Cosmetic Customizer=Customizar Cosméticos
 Enable Cosmetic Customizer=Customização de Cosméticos
 Import Cosmetic Customizer=Importar Customizações
 Export Cosmetic Customizer=Exportar Customizações
 Reset Cosmetic Customizer=Resetar Customizações
 Vanilla Cosmetics=Cosméticos Vanilla
 Enable Vanilla Custom Colors=Cores Personalizadas (Vanilla)
-Other Modded Cosmetics=Outros Cosméticos Modded
+Other Modded Cosmetics=Outros Cosméticos
 Auto Unlock Modded Cosmetics=Desbloquear Cosméticos Modded
 Enable Modded Custom Colors=Cores Personalizadas - Modded
 Highlight Modded Cosmetics=Destacar Cosméticos Modded
@@ -195,7 +227,7 @@ Group count multiplier=Multiplicador de quantidade de grupos
 Ignore groups with invalid spawn Objects=Ignorar grupos com objetos de spawn inválidos
 Remove unused level weight multipliers=Remover multiplicadores de peso de nível não usados
 Re-add missing groups=Readicionar grupos ausentes
-Prevent enemy spawning=Impedir spawn de inimigos
+Prevent enemy spawning=Impedir spawn de Monstros
 
 // ── MoreHead (modificado): nomes dos trajes ───────────────────────────────────
 Outfit1Label=Rótulo do Traje 1
@@ -232,6 +264,7 @@ X Unity Resource Redirector=X Unity Resource Redirector
 REPOLib is loading bundles... Hang tight!=O REPOLib está carregando os bundles... Aguenta aí!
 
 // ── espeakTTS ─────────────────────────────────────────────────────────────────
+Language=Língua
 Pitch=Tom
 Variant=Variante
 Gap=Pausa

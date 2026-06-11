@@ -1313,9 +1313,14 @@ Yusuke=Yusuke
 ZeedMillenniummon=ZeedMillenniummon
 
 // ── MoreHead Menu ───────────────────────────────────────
+<color\=#FF0000>M</color><color\=#FF3300>O</color><color\=#FF6600>R</color><color\=#FF9900>E</color><color\=#FFCC00>H</color><color\=#FFDD00>E</color><color\=#FFEE00>A</color><color\=#FFFF00>D</color>=<color\=#FF0000>M</color><color\=#FF3300>O</color><color\=#FF6600>R</color><color\=#FF9900>E</color><color\=#FFCC00>H</color><color\=#FFDD00>E</color><color\=#FFEE00>A</color><color\=#FFFF00>D</color>
+
 <size\=10><color\=#FFFFA0>Masaicker</color> and <color\=#FFFFA0>Yuriscat</color> co-developed.</size> <size\=10><color\=#AAAAAA>v1.4.5</color></size>=<size\=10><color\=#FFFFA0>Masaicker</color> e <color\=#FFFFA0>Yuriscat</color> co-desenvolveram.</size> <size\=10><color\=#AAAAAA>v1.4.5</color></size>
+
 <size\=13><color\=#AA00FF50>NECK</color></size>=<size\=13><color\=#AA00FF50>PESCOÇO</color></size>
 <size\=13><color\=#AACCAA50>LIMBS</color></size>=<size\=13><color\=#AACCAA50>MEMBROS</color></size>
 <size\=13><color\=#FF00AA50>HIP</color></size>=<size\=13><color\=#FF00AA50>CINTURA</color></size>
+
 <size\=18><color\=#FFAA00>CLEAR ALL</color></size>=<size\=18><color\=#FFAA00>LIMPAR TUDO</color></size>
+
 <size\=18><color\=#FFFFFF>C</color><color\=#E6E6E6>L</color><color\=#CCCCCC>O</color><color\=#B3B3B3>S</color><color\=#999999>E</color></size>=<size\=18><color\=#FFFFFF>V</color><color\=#E6E6E6>O</color><color\=#CCCCCC>L</color><color\=#B3B3B3>T</color><color\=#999999>AR</color></size>

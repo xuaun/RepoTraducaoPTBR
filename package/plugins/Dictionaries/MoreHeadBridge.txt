@@ -461,8 +461,8 @@ sr:"^≠ yours: (.+)$"="≠ seu: $1"
 // ── Geração de ícones ─────────────────────────────────────────────────────────
 Generating Icons=Gerando Ícones
 // O Bridge (>= esta build) separa números do texto fixo em dois TMPs:
-Press ESC to stop early\n\nTip: close the menu anytime to pause — reopen it to resume where you left off=Cansou? Aperte ESC para sair antes de terminar\n\nDica: feche o menu a qualquer momento para pausar — reabra para continuar de onde parou
-Press ESC to stop early\n\nTip: hovering a cosmetic with no icon captures it automatically=Cansou? Aperte ESC para sair antes de terminar\n\nDica: passar o mouse num cosmético sem ícone o captura automaticamente
+Press ESC to stop early\n\nTip: close the menu anytime to pause — reopen it to resume where you left off=Aperte ESC para sair antes de terminar\n\nDica: feche o menu a qualquer momento para pausar — reabra para continuar de onde parou
+Press ESC to stop early\n\nTip: hovering a cosmetic with no icon captures it automatically=Aperte ESC para sair antes de terminar\n\nDica: passar o mouse num cosmético sem ícone o captura automaticamente
 r:"^(\d+) / (\d+)  \((\d+)%\)\n(\d+) failed$"=$1 / $2  ($3%)\n$4 falha(s)
 
 // ── Menu de cosméticos (textos restantes) ─────────────────────────────────────
