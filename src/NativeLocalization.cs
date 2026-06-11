@@ -95,7 +95,7 @@ internal static class NativeLocalization
                 }
             }
             _applied = true;
-            BceConsole.LogInfo($"Interface vanilla traduzida nativamente ({applied} textos nas tabelas {string.Join("/", Tables)}).");
+            BceConsole.LogInfo($"Interface vanilla traduzida ({applied} textos nas tabelas {string.Join("/", Tables)}).");
         }
         catch (Exception ex)
         {
