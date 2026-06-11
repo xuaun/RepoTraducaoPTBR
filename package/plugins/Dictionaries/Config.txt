@@ -1,0 +1,240 @@
+// Menus de configuração de mods (REPOConfig) em pt-BR (XUnity.AutoTranslator)
+// Formato: Texto original=Tradução. Apague qualquer linha que prefira manter em inglês.
+
+// ── REPOConfig / genéricos ───────────────────────────────────────────────────
+General=Geral
+Debug=Depuração
+Logging=Logs
+Enable Debug Logs=Ativar Logs de Depuração
+Enable Verbose Logging=Ativar Logs Detalhados
+Extended Logging=Logs Estendidos
+Enable Debug Logging=Ativar Logs de Depuração
+Add Config To Main Menu=Adicionar Config ao Menu Principal
+Mod Search=Busca de Mods
+Reset To Default=Restaurar Padrão
+Revert=Reverter
+Save Changes=Salvar Alterações
+Diagnostics=Diagnóstico
+Log callback order=Registrar ordem dos callbacks
+Log all loaded resources=Registrar todos os recursos carregados
+Developer Mode=Modo Desenvolvedor
+Vanilla Developer Mode=Modo Desenvolvedor Vanilla
+Blacklist=Lista de Bloqueio
+Blacklist Mode=Modo da Lista de Bloqueio
+Experimental=Experimental
+
+// ── CustomGrabColor ──────────────────────────────────────────────────────────
+Change Grab Colour=Mudar a Cor da Garra
+Neutral Grab Beam Colour=Cor do Feixe Neutro
+Neutral Grab Beam Match Skin=Feixe Neutro Igual à Pele
+Rotating Grab Beam Colour=Cor do Feixe ao Girar
+Rotating Grab Beam Match Skin=Feixe ao Girar Igual à Pele
+Healing Grab Beam Colour=Cor do Feixe de Cura
+Healing Grab Beam Match Skin=Feixe de Cura Igual à Pele
+Climbing Grab Beam Colour=Cor do Feixe de Escalada
+Climbing Grab Beam Match Skin=Feixe de Escalada Igual à Pele
+
+// ── Mimic ────────────────────────────────────────────────────────────────────
+Enemies=Monstros
+r:"^Enemy - (.+)$"=Inimigo - $1
+Filter=Filtro
+Filter Enabled?=Filtro Ativado?
+Sampling Rate=Taxa de Amostragem
+Hear Yourself?=Ouvir a Si Mesmo?
+Max Delay=Atraso Máximo
+Min Delay=Atraso Mínimo
+Volume=Volume
+
+// ── Posições de botões (mods de UI) ──────────────────────────────────────────
+Lobby Button Pos X=Posição X do Botão (Lobby)
+Lobby Button Pos Y=Posição Y do Botão (Lobby)
+Esc Button Pos X=Posição X do Botão (Menu ESC)
+Esc Button Pos Y=Posição Y do Botão (Menu ESC)
+
+// ── MoreHead Bridge (entradas de config) ─────────────────────────────────────
+Common=Comum
+Compatibility=Compatibilidade
+Cosmetic Customizer=Customização de Cosméticos
+Enable Cosmetic Customizer=Customização de Cosméticos
+Import Cosmetic Customizer=Importar Customizações
+Export Cosmetic Customizer=Exportar Customizações
+Reset Cosmetic Customizer=Resetar Customizações
+Vanilla Cosmetics=Cosméticos Vanilla
+Enable Vanilla Custom Colors=Cores Personalizadas (Vanilla)
+Other Modded Cosmetics=Outros Cosméticos Modded
+Auto Unlock Modded Cosmetics=Desbloquear Cosméticos Modded
+Enable Modded Custom Colors=Cores Personalizadas - Modded
+Highlight Modded Cosmetics=Destacar Cosméticos Modded
+Allow Modded Cosmetic Customizer=Customização em Cosméticos Modded
+Reset Modded Unlocks=Resetar Desbloqueios - Modded
+Bridge Appearance=Aparências do Bridge
+Enable Bridge Tinting=Pintura - Bridge
+Enable Bridge Custom Colors=Cores Personalizadas - Bridge
+Enable Bridge Color Animations=Cores Animadas - Bridge
+See Remote Color Animations=Ver Cores Animadas dos Outros
+Enable World Follow Spring=Balançar no Movimento (Seguidores)
+Highlight Bridge Cosmetics=Destacar Cosméticos - Bridge
+Bridge Default Rarity=Raridade Padrão - Bridge
+Cosmetics Menu=Menu de Cosméticos
+Enable Menu Enhancements=Melhorias do Menu
+Show Tools Button=Mostrar Botão de Ferramentas
+Group Cosmetic Variants=Agrupar Variantes de Cosméticos
+Hide More Head Button=Ocultar Botão do MoreHead
+Search Field Position=Posição do Campo de Busca
+Top=Acima
+Bottom=Em Baixo
+Specific Folders=Pastas Específicas
+Enable Mini Semibot=Mini-Semibot
+Allow Multiple Cosmetics=Permitir Vários Cosméticos
+Auto Unlock Bridge Cosmetics=Desbloquear Cosméticos Bridge
+Bridge Icons=Ícones - Bridge
+Auto Capture Icons=Capturar Ícones ao vê-los
+Generate All Icons=Gerar Todos os Ícones
+Use Texture As Placeholder=Usar Textura como Temporário
+Hide Avatar While Generating=Ocultar Avatar ao Gerar
+Hide Clothes While Generating=Ocultar Roupas ao Gerar
+Reset Body Color While Generating=Resetar Cores do Corpo ao Gerar
+Delete Icon Cache=Apagar Cache de Ícones
+Delete Icons Matching=Apagar Estes Ícones
+Bridge Equip Animation Mode=Animação de Equipar - Bridge
+Loop Bridge Animation=Animação em Loop - Bridge
+Remove Bridge Physics=Remover Física - Bridge
+Fix Cosmetics Menu Performance=Melhorar Desempenho do Menu de Cosméticos
+Reset Bridge Unlocks=Resetar Desbloqueios - Bridge
+Show Bridge Debug Logs=Mostrar Logs de Depuração
+
+// ── REPO Tradução pt-BR ──────────
+Categories=Categorias
+Translate Game=Traduzir Jogo
+Translate Vanilla Cosmetics=Traduzir Roupas Vanilla
+Translate Xuaun Cosmetics=Traduzir Roupas do Xuaun
+Translate Modded Cosmetics (Others)=Traduzir Roupas Modded (Outras)
+Translate MoreHead Bridge=Traduzir MoreHead Bridge
+Translate More Head Bridge=Traduzir MoreHead Bridge
+Translate Mod Configs=Traduzir Configs de Mods
+
+Automatic Translation=Tradução Automática
+Translate the Rest (Automatic)=Traduzir o Resto (Automático)
+Tools=Ferramentas
+Dump All Cosmetic Names=Copiar Nomes de Todos os Cosméticos
+
+// ── REPOConfig (toggles genéricos) ────────────────────────────────────────────
+ON=LIGADO
+OFF=DESLIGADO
+
+// ── QueenOfTheLosers ──────────────────────────────────────────────────────────
+Title=Título
+Title Selection=Seleção de Título
+QUEEN=RAINHA
+MONARCH=MONARCA
+RULER=SOBERANO
+KING=REI
+Death Head Voice=Voz da Cabeça Destruída
+Low Battery Inflection=Inflexão de Bateria Fraca
+A replacement for the title of KING in the "King of the Losers" screen=Substituto para o título de REI na tela "Rei dos Perdedores"
+
+// ── BetterHeals ───────────────────────────────────────────────────────────────
+General Health Settings=Configurações Gerais de Vida
+Health Pack Amount Multiplier=Multiplicador de Cura dos Kits de Vida
+Enable Full Health At Start=Vida Cheia no Início
+Enable Health Regen=Ativar Regeneração de Vida
+Health Regen Amount=Quantidade de Regeneração de Vida
+Custom Regen Interval Amount=Intervalo Personalizado de Regeneração
+Enable Extraction Heal=Ativar Cura na Extração
+Extraction Full Heal=Cura Total na Extração
+Extraction Heal Amount=Quantidade de Cura na Extração
+Team Health Settings=Configurações de Vida da Equipe
+Enable Team Health Pack=Ativar Kit de Vida da Equipe
+Enable Equal Split Team Health=Dividir a Vida da Equipe Igualmente
+Enable Custom Revive Health=Ativar Vida Personalizada ao Reviver
+Full Revive Health=Vida Cheia ao Reviver
+Custom Revive Health Amount=Quantidade de Vida ao Reviver
+
+// ── SharedUpgradesPlus ────────────────────────────────────────────────────────
+Enable Shared Upgrades=Ativar Melhorias Compartilhadas
+Shared Upgrades Chance=Chance de Compartilhar Melhorias
+Shared Upgrades Chance Mode=Modo Chance de Compartilhar Melhorias
+Each player=Cada jogador
+Late Join Sync=Sincronizar com Entrada Tardia
+Enable Modded Upgrades=Ativar Melhorias Modded
+Log Level=Nível de Log
+Effects=Efeitos
+Enable Shared Upgrade Heal=Ativar Compartilhamento de Cura
+Enable Share Notification=Ativar Notificação de Compartilhamento
+Vanilla Upgrades=Melhorias Vanilla
+Crouch Rest=Descansar Agachado
+Crouch Rest Share Limit=Limite de Compartilhamento: Descansar Agachado
+Death Head Battery=Bateria da Cabeça Destruída
+Death Head Battery Share Limit=Limite de Compartilhamento: Bateria da Cabeça Destruída
+Extra Jump=Pulo Extra
+Extra Jump Share Limit=Limite de Compartilhamento: Pulo Extra
+Health=Vida
+Health Share Limit=Limite de Compartilhamento: Vida
+Launch=Lançamento
+Launch Share Limit=Limite de Compartilhamento: Lançamento
+Map Player Count=Jogadores no Mapa
+Map Player Count Share Limit=Limite de Compartilhamento: Jogadores no Mapa
+Range=Alcance
+Range Share Limit=Limite de Compartilhamento: Alcance
+Speed Share Limit=Limite de Compartilhamento: Velocidade
+Stamina=Energia
+Stamina Share Limit=Limite de Compartilhamento: Energia
+Strength=Força
+Strength Share Limit=Limite de Compartilhamento: Força
+Throw=Arremesso
+Throw Share Limit=Limite de Compartilhamento: Arremesso
+Tumble Climb=Escalada Tombado
+Tumble Climb Share Limit=Limite de Compartilhamento: Escalada Tombado
+Tumble Wings=Asas Tombando
+Tumble Wings Share Limit=Limite de Compartilhamento: Asas Tombando
+
+// ── SpawnConfig ───────────────────────────────────────────────────────────────
+Enable Variety+=Ativar Variety+
+Consecutive level count=Contagem de níveis consecutivos
+Group count multiplier=Multiplicador de quantidade de grupos
+Ignore groups with invalid spawn Objects=Ignorar grupos com objetos de spawn inválidos
+Remove unused level weight multipliers=Remover multiplicadores de peso de nível não usados
+Re-add missing groups=Readicionar grupos ausentes
+Prevent enemy spawning=Impedir spawn de inimigos
+
+// ── MoreHead (modificado): nomes dos trajes ───────────────────────────────────
+Outfit1Label=Rótulo do Traje 1
+Outfit2Label=Rótulo do Traje 2
+Outfit3Label=Rótulo do Traje 3
+Outfit4Label=Rótulo do Traje 4
+Outfit5Label=Rótulo do Traje 5
+Outfit6Label=Rótulo do Traje 6
+Outfit7Label=Rótulo do Traje 7
+Outfit8Label=Rótulo do Traje 8
+Outfit9Label=Rótulo do Traje 9
+
+// ── CustomGrabColour ──────────────────────────────────────────────────────────
+Main Menu Button Pos X=Posição X do Botão (Menu Principal)
+Main Menu Button Pos Y=Posição Y do Botão (Menu Principal)
+
+// ── Nomes de mods na lista do REPOConfig (identidade: protege do tradutor
+//    automático, que mutilaria nomes próprios) ──────────────────────────────────
+Better Heals=Better Heals
+Shared Upgrades Plus=Shared Upgrades Plus
+Spawn Config=Spawn Config
+Custom Grab Colour=Custom Grab Colour
+Queen Of The Losers=Queen Of The Losers
+Variety+=Variety+
+More Head=More Head
+More Head Bridge=More Head Bridge
+More Head Utilities=More Head Utilities
+REPO Lib=REPO Lib
+Mimics=Mimics
+espeak TTS=espeak TTS
+X Unity Resource Redirector=X Unity Resource Redirector
+
+// ── REPOLib ───────────────────────────────────────────────────────────────────
+REPOLib is loading bundles... Hang tight!=O REPOLib está carregando os bundles... Aguenta aí!
+
+// ── espeakTTS ─────────────────────────────────────────────────────────────────
+Pitch=Tom
+Variant=Variante
+Gap=Pausa
+Enable full sentences=Ativar frases completas
+Full sentences settings=Configurações de frases completas
+TTS for players without the mod installed=TTS para jogadores sem o mod instalado

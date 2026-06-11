@@ -1,0 +1,21 @@
+== Ponto de extração ==
+EXTRACTION.TAX_RETURN	Reembolso
+EXTRACTION.LOCKED	Bloqueado
+EXTRACTION.READY	Pronto
+EXTRACTION.ACTIVE	Ativo
+EXTRACTION.EXTRACTING	Extraindo
+EXTRACTION.COMPLETED	Concluído
+
+== Máquina de cosméticos ==
+COSMETIC_SHOP_MACHINE.NEW	Novo
+
+== Caixa de itens valiosos ==
+VALUABLE_BOX.TOO_BIG	Grande demais
+VALUABLE_BOX.TOO_FULL	Cheio demais
+VALUABLE_BOX.EXTRACT	Extrair
+
+== Tela do caminhão ==
+TRUCK_SCREEN.TAXMAN	Sr. Fiscal
+TRUCK_SCREEN.DESTROYING_SLACKERS	Destruindo Atrasados
+TRUCK_SCREEN.STARTING_ENGINE	Ligando o Motor
+TRUCK_SCREEN.HITTING_THE_ROAD	Pegando a Estrada

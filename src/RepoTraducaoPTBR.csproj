@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <LangVersion>latest</LangVersion>
+
+        <AssemblyName>RepoTraducaoPTBR</AssemblyName>
+        <Version>1.0.0</Version>
+        <Authors>Xuaun</Authors>
+        <Product>RepoTraducaoPTBR</Product>
+        <Description>Tradução pt-BR do R.E.P.O. com toggles por categoria (via XUnity.AutoTranslator).</Description>
+
+        <DebugType>portable</DebugType>
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <RepoPath Condition="'$(RepoPath)' == ''">$(REPO_MANAGED_PATH)</RepoPath>
+        <BepInExPath Condition="'$(BepInExPath)' == ''">$(BEPINEX_CORE_PATH)</BepInExPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="$(RepoPath)*Unity*" Private="false" />
+        <Reference Include="$(BepInExPath)BepInEx.dll" Private="false" />
+        <Reference Include="$(BepInExPath)0Harmony.dll" Private="false" />
+    </ItemGroup>
+
+    <!-- Pasta opcional de um profile local (r2modman/Thunderstore) para testar in-game.
+         Só é usada se existir — em outras máquinas/CI o build simplesmente a ignora. -->
+    <PropertyGroup>
+        <TestProfileDir Condition="'$(TestProfileDir)' == ''">C:\Users\Joao\AppData\Roaming\Thunderstore Mod Manager\DataFolder\REPO\profiles\Test\BepInEx\plugins\Xuaun-RepoTraducaoPTBR</TestProfileDir>
+    </PropertyGroup>
+
+    <!-- Deploy: DLL no esqueleto do pacote Thunderstore E no profile de teste (com dicionários). -->
+    <Target Name="DeployPack" AfterTargets="Build">
+        <ItemGroup>
+            <DictFiles Include="..\package\plugins\Dictionaries\*.txt" />
+            <LocFiles Include="..\package\plugins\Localizations\*.tsv" />
+        </ItemGroup>
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="..\package\plugins\" />
+        <Copy SourceFiles="$(TargetPath)" Condition="Exists('$(TestProfileDir)')"
+              DestinationFolder="$(TestProfileDir)\" ContinueOnError="true" />
+        <Copy SourceFiles="@(DictFiles)" Condition="Exists('$(TestProfileDir)')"
+              DestinationFolder="$(TestProfileDir)\Dictionaries\" ContinueOnError="true" />
+        <Copy SourceFiles="@(LocFiles)" Condition="Exists('$(TestProfileDir)')"
+              DestinationFolder="$(TestProfileDir)\Localizations\" ContinueOnError="true" />
+    </Target>
+
+</Project>

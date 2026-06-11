@@ -1,0 +1,215 @@
+== Mensagens grandes ==
+BIG_MESSAGE.EXTRACTION.ACTIVATED	Ponto de extração ativado
+BIG_MESSAGE.EXTRACTION.COMPLETED	Ponto de extração concluído
+
+== Foco / objetivos ==
+FOCUS.EXTRACTION.FILL_VALUABLES	Encha o ponto de extração com itens valiosos
+FOCUS.EXTRACTION.AVOID_GRENADES	Desvie das granadas!
+FOCUS.EXTRACTION.FIND_NEXT	Encontre o próximo ponto de extração
+FOCUS.EXTRACTION.BACK_TO_TRUCK	Volte para o caminhão!
+FOCUS.PREFIX	FOCO
+FOCUS.SHOP.INTRO	Compre coisas na loja
+FOCUS.TRUCK.INTRO	Aproveite a viagem, recarregue as coisas e SE EQUIPE!
+
+== Tutorial ==
+TUTORIAL.TRANSITION_TEXT	Bom trabalho!
+TUTORIAL.MOVEMENT.TEXT	Use [move] para se mover.
+TUTORIAL.MOVEMENT.FOCUS_TEXT	Mova-se para encher a barra de progresso!
+TUTORIAL.MOVEMENT.DUMMY_TEXT	Use [move] no seu teclado até encher a barra de progresso!
+TUTORIAL.JUMPING.TEXT	Aperte [jump] para pular.
+TUTORIAL.JUMPING.FOCUS_TEXT	Pule para encher a barra de progresso!
+TUTORIAL.JUMPING.DUMMY_TEXT	Aperte [jump] e dê pulos até encher a barra de progresso!
+TUTORIAL.SNEAKING.TEXT	Aperte [crouch] para se esgueirar. Monstros têm menos chance de te ver.
+TUTORIAL.SNEAKING.FOCUS_TEXT	Esgueire-se para encher a barra de progresso!
+TUTORIAL.SNEAKING.DUMMY_TEXT	Segure [crouch] e use [move] até encher o progresso!
+TUTORIAL.HIDING.TEXT	Use [crouch] para passar por baixo das coisas e se esconder.
+TUTORIAL.HIDING.FOCUS_TEXT	Esconda-se para encher a barra de progresso!
+TUTORIAL.HIDING.DUMMY_TEXT	Segure [crouch] e entre embaixo de algo; fique lá até encher a barra de progresso!
+TUTORIAL.SPRINTING.TEXT	Segure [sprint] para correr. Mas isso gasta sua energia.
+TUTORIAL.SPRINTING.FOCUS_TEXT	Corra para encher a barra de progresso!
+TUTORIAL.SPRINTING.DUMMY_TEXT	Segure [sprint] e use [move] para correr até encher a barra de progresso! Se sua energia acabar, espere ela regenerar!
+TUTORIAL.TUMBLING.TEXT	Corra e aperte [tumble] para cair com estilo. Pular também ajuda!
+TUTORIAL.TUMBLING.FOCUS_TEXT	Corra, pule e caia com estilo para encher a barra de progresso!
+TUTORIAL.TUMBLING.DUMMY_TEXT	Corra com [sprint], pule com [jump] e aperte [tumble] para se jogar. Repita até encher a barra de progresso!
+TUTORIAL.GRABBING.TEXT	Agarre objetos usando [grab].
+TUTORIAL.GRABBING.FOCUS_TEXT	Carregue isto para encher a barra de progresso!
+TUTORIAL.GRABBING.DUMMY_TEXT	Aperte e segure [grab] em um objeto até encher a barra de progresso!
+TUTORIAL.PUSHING_AND_PULLING.TEXT	Use [push] para mudar a distância dos objetos agarrados.
+TUTORIAL.PUSHING_AND_PULLING.FOCUS_TEXT	Mude a distância do item que está segurando!
+TUTORIAL.PUSHING_AND_PULLING.DUMMY_TEXT	Aperte e segure [grab] em um objeto que está segurando e use [push] para mudar a distância dele!
+TUTORIAL.ROTATING.TEXT	Gire objetos que está segurando usando [grab2].
+TUTORIAL.ROTATING.FOCUS_TEXT	Gire as coisas para encher a barra de progresso!
+TUTORIAL.ROTATING.DUMMY_TEXT	Segurando um objeto com [grab], aperte e segure [grab2] e mova a mira para girá-lo. Gire até encher a barra de progresso!
+TUTORIAL.ITEM_TOGGLING.TEXT	Agarre e aperte [interact] para ativar/desativar itens.
+TUTORIAL.ITEM_TOGGLING.FOCUS_TEXT	Ative e desative este item!
+TUTORIAL.ITEM_TOGGLING.DUMMY_TEXT	Agarre a bola com [grab] e ative e desative com [interact] até encher a barra de progresso!
+TUTORIAL.INVENTORY_FILL.TEXT	Agarre um item e use [inventory1]/[inventory2]/[inventory3] para guardá-lo no inventário.
+TUTORIAL.INVENTORY_FILL.FOCUS_TEXT	Encha o inventário inteiro!
+TUTORIAL.INVENTORY_FILL.DUMMY_TEXT	Segurando um item com [grab], aperte [inventory1]/[inventory2]/[inventory3]. Preencha todos os espaços do inventário para completar a barra de progresso!
+TUTORIAL.INVENTORY_EMPTY.TEXT	Use [inventory1]/[inventory2]/[inventory3] para tirar itens do inventário.
+TUTORIAL.INVENTORY_EMPTY.FOCUS_TEXT	Esvazie o inventário inteiro!
+TUTORIAL.INVENTORY_EMPTY.DUMMY_TEXT	Use [inventory1]/[inventory2]/[inventory3] e esvazie todos os espaços para encher a barra de progresso!
+TUTORIAL.MAP.TEXT	Use [map] para ver o mapa. O mapa é <b><u>IMPORTANTE</u></b> para se orientar.
+TUTORIAL.MAP.FOCUS_TEXT	Olhe o mapa!
+TUTORIAL.MAP.DUMMY_TEXT	Segure [map] e olhe o mapa até encher a barra de progresso!
+TUTORIAL.CART_HANDLING_1.TEXT	Isto é um C.A.R.T. Agarre-o pela alça.
+TUTORIAL.CART_HANDLING_1.FOCUS_TEXT	Ande um pouco com o C.A.R.T.!
+TUTORIAL.CART_HANDLING_1.DUMMY_TEXT	Agarre o C.A.R.T. pela alça com [grab] e ande com ele até encher a barra de progresso!
+TUTORIAL.CART_HANDLING_2.TEXT	Encha os C.A.R.T.s com itens valiosos. C.A.R.T.s são <b><u>IMPORTANTES</u></b> para carregar muitas coisas.
+TUTORIAL.CART_HANDLING_2.FOCUS_TEXT	Encha o C.A.R.T. com itens valiosos!
+TUTORIAL.CART_HANDLING_2.DUMMY_TEXT	Coloque três itens dentro do C.A.R.T.
+TUTORIAL.EXTRACTION_POINTS.TEXT	Ative e encha os <b><u>PONTOS DE EXTRAÇÃO</u></b> com itens valiosos.
+TUTORIAL.EXTRACTION_POINTS.FOCUS_TEXT	Extraia os itens valiosos!
+TUTORIAL.EXTRACTION_POINTS.DUMMY_TEXT	OLÁ! ENCHA O <b><u>PONTO DE EXTRAÇÃO</u></b> COM ITENS VALIOSOS!
+TUTORIAL.TRUCK.TEXT	Entre no <b><u>CAMINHÃO</u></b> e avise seu chefe para sair desta fase.
+TUTORIAL.TRUCK.FOCUS_TEXT	Entre no caminhão e envie a mensagem!
+TUTORIAL.TRUCK.DUMMY_TEXT	Entre no caminhão, agarre e segure a área de mensagem na tela do caminhão com [grab] para enviar sua mensagem!
+TUTORIAL.HEALING.TEXT	Compartilhe sua vida com outros jogadores segurando o pescoço deles!
+TUTORIAL.REVIVING.TEXT	Reviva outros jogadores colocando suas cabeças para extração!
+TUTORIAL.CHARGING_STATION.TEXT	Compre <b><u>CRISTAIS DE ENERGIA</u></b> para a <b><u>ESTAÇÃO DE RECARGA</u></b> para recarregar e consertar seu equipamento!
+TUTORIAL.ONLY_ONE_EXTRACTION.TEXT	Só um <b><u>PONTO DE EXTRAÇÃO</u></b> pode estar ativo por vez; encontre o atual usando seu mapa!
+TUTORIAL.CHAT.TEXT	Aperte [chat] para abrir o chat! É divertido!
+TUTORIAL.FINAL_EXTRACTION.TEXT	Hora de ir embora! O caminhão te cura e revive as cabeças de jogadores que estão nele!
+TUTORIAL.MULTIPLE_EXTRACTIONS.TEXT	Esta fase tem vários <b><u>PONTOS DE EXTRAÇÃO</u></b>; você precisa concluir todos para sair!
+TUTORIAL.SHOP.TEXT	Esta é a <b><u>LOJA</u></b>; extraia os produtos para comprá-los. Aqui nenhum dano é permanente!
+TUTORIAL.EXPRESSIONS.TEXT	Use [expression1]/[expression2]/[expression3]/[expression4]/[expression5]/[expression6] para fazer expressões. Dá até para misturar!
+TUTORIAL.OVERCHARGE_1.TEXT	Agarrar um monstro agora causa sobrecarga; quando encher, você é arremessado.
+TUTORIAL.OVERCHARGE_2.TEXT	Várias pessoas juntas amenizam o efeito da sobrecarga.
+TUTORIAL.HEAD_SPECTATE_1.TEXT	Enquanto você está morto, sua cabeça se recarrega; use essa energia para possuí-la por um instante.
+TUTORIAL.HEAD_SPECTATE_2.TEXT	Possuindo sua cabeça, segure [jump] para pular. Segure por mais tempo para pular mais alto, gastando mais energia.
+TUTORIAL.ENEMY_ELSA.TEXT	FAÇA CARINHO NO CACHORRO!
+TUTORIAL.EXTRACTION_REMINDER.TEXT	Encha os <b><u>PONTOS DE EXTRAÇÃO</u></b> com itens valiosos.
+TUTORIAL.COSMETIC_WORLD_OBJECT_1.TEXT	Esta é uma <b><u>CAIXA DE COSMÉTICOS</u></b>; extraia-a para ganhar uma recompensa.
+TUTORIAL.COSMETIC_WORLD_OBJECT_2.TEXT	Se ela for danificada, você pode <b><u>REPARÁ-LA</u></b> usando sua própria vida.
+TUTORIAL.COSMETIC_SHOP_MACHINE.TEXT	Insira <b><u>FICHAS DOS IMPOSTOS</u></b> na máquina da loja para resgatar suas recompensas.
+
+== Tela da lua ==
+MOON_UI.SKIP	[menu] para pular
+
+== Máquina de cosméticos ==
+COSMETIC_SHOP_MACHINE.INFO_TEXT	Aperte [interact] para inserir uma ficha de imposto
+
+== Itens ==
+ITEM.CART_CANNON	Canhão C.A.R.T.
+ITEM.CART_LASER	Laser C.A.R.T.
+ITEM.CART_MEDIUM	C.A.R.T.
+ITEM.CART_SMALL	C.A.R.T. DE BOLSO
+ITEM.DRONE_BATTERY	Drone de Recarga
+ITEM.DRONE_FEATHER	Drone Pena
+ITEM.DRONE_INDESTRUCTIBLE	Drone Indestrutível
+ITEM.DRONE_TORQUE	Drone Giratório
+ITEM.DRONE_ZERO_GRAVITY	Drone de Zero Gravidade
+ITEM.DUCK_BUCKET	Balde para Patos
+ITEM.EXTRACTION_TRACKER	Rastreador de Extração
+ITEM.GRENADE_DUCT_TAPED	Granadas com Fita Adesiva
+ITEM.GRENADE_EXPLOSIVE	Granada
+ITEM.GRENADE_HUMAN	Granada Humana
+ITEM.GRENADE_SHOCKWAVE	Granada de Impacto
+ITEM.GRENADE_STUN	Granada Atordoante
+ITEM.GUN_HANDGUN	Pistola
+ITEM.GUN_LASER	Blaster de Fótons
+ITEM.GUN_SHOCKWAVE	Pistola de Pulso
+ITEM.GUN_SHOTGUN	Espingarda
+ITEM.GUN_STUN	Eletrodardo
+ITEM.GUN_TRANQ	Arma Tranquilizante
+ITEM.HEALTH_PACK_LARGE	Kit de Vida Grande (100)
+ITEM.HEALTH_PACK_MEDIUM	Kit de Vida Médio (50)
+ITEM.HEALTH_PACK_SMALL	Kit de Vida Pequeno (25)
+ITEM.LEAF_BLOWER	Soprador de Folhas
+ITEM.MELEE_BASEBALL_BAT	Taco de Beisebol
+ITEM.MELEE_FRYING_PAN	Frigideira
+ITEM.MELEE_INFLATABLE_HAMMER	Martelo Inflável
+ITEM.MELEE_SLEDGE_HAMMER	Marreta
+ITEM.MELEE_STUN_BATON	Eletrobastão
+ITEM.MELEE_SWORD	Espada
+ITEM.MINE_EXPLOSIVE	Mina Explosiva
+ITEM.MINE_SHOCKWAVE	Mina de Impacto
+ITEM.MINE_STUN	Eletroarmadilha
+ITEM.ORB_ZERO_GRAVITY	Orbe de Zero Gravidade
+ITEM.PHASE_BRIDGE	Ponte de Fase
+ITEM.POWER_CRYSTAL	Cristal de Energia
+ITEM.REVIVE_ITEM	Desfibri
+ITEM.RUBBER_DUCK	Pato de Borracha
+ITEM.STAFF_TORQUE	Cajado Giratório
+ITEM.STAFF_VOID	Cajado do Vazio
+ITEM.STAFF_ZERO_GRAVITY	Cajado de Zero Gravidade
+ITEM.UPGRADE_DEATH_HEAD_BATTERY	Melhoria Bateria da Cabeça Destruída
+ITEM.UPGRADE_MAP_PLAYER_COUNT	Melhoria Quantos Jogadores no Mapa
+ITEM.UPGRADE_PLAYER_CROUCH_REST	Melhoria de Descansar Agachado
+ITEM.UPGRADE_PLAYER_ENERGY	Melhoria de Energia
+ITEM.UPGRADE_PLAYER_EXTRA_JUMP	Melhoria de Extra Pulo
+ITEM.UPGRADE_PLAYER_GRAB_RANGE	Melhoria de Alcance
+ITEM.UPGRADE_PLAYER_GRAB_STRENGTH	Melhoria de Força
+ITEM.UPGRADE_PLAYER_HEALTH	Melhoria de Vida
+ITEM.UPGRADE_PLAYER_SPRINT_SPEED	Melhoria de Velocidade
+ITEM.UPGRADE_PLAYER_TUMBLE_CLIMB	Melhoria de Escalada Tombado
+ITEM.UPGRADE_PLAYER_TUMBLE_LAUNCH	Melhoria de Lançamento Tombado
+ITEM.UPGRADE_PLAYER_TUMBLE_WINGS	Melhoria de Asas Tombando
+ITEM.VALUABLE_TRACKER	Rastreador de Itens Valiosos
+ITEM.VEHICLE_SEMISCOOTER	Cargueiro
+ITEM.VEHICLE_SEMISCOOTER_SMALL	Batedor
+ITEM.WALKIE_TALKIE	Walkie Semibot
+ITEM.WALKIE_TALKIE_BOX	Walkies Semibot
+ITEM.CART.MODE_STRONG	Modo: Forte
+ITEM.CART.MODE_WEAK	Modo: Fraco
+
+== Status / Melhorias ==
+STATS.UPGRADES.HEADER	Melhorias
+STATS.UPGRADE.CROUCH_REST	Descansar Agachado
+STATS.UPGRADE.DEATH_HEAD_BATTERY	Bateria da Cabeça Destruída
+STATS.UPGRADE.EXTRA_JUMP	Extra Pulo
+STATS.UPGRADE.HEALTH	Vida
+STATS.UPGRADE.LAUNCH	Lançamento Tombado
+STATS.UPGRADE.MAP_PLAYER_COUNT	Jogadores no Mapa
+STATS.UPGRADE.RANGE	Alcance
+STATS.UPGRADE.SPEED	Velocidade de Corrida
+STATS.UPGRADE.STAMINA	Energia
+STATS.UPGRADE.STRENGTH	Força
+STATS.UPGRADE.TUMBLE_CLIMB	Escalada Tombado
+STATS.UPGRADE.TUMBLE_WINGS	Asas Tombando
+
+== Fases ==
+LEVEL.HEADER	Fase
+
+== Monstros ==
+ENEMY.ANIMAL	Animal
+ENEMY.BANG	Bombardeiro
+ENEMY.BEAMER	Palhaço
+ENEMY.BIRTHDAY_BOY	Aniversariante
+ENEMY.BOMB_THROWER	Esquadrão de Limpeza
+ENEMY.BOWTIE	Gravatinha
+ENEMY.CEILING_EYE	Vigia
+ENEMY.DUCK	Predador Supremo
+ENEMY.ELSA	Elsa
+ENEMY.FLOATER	Mentalista
+ENEMY.GNOME	Gnomo
+ENEMY.HEAD	Cabeçudo
+ENEMY.HEAD_GRABBER	Agarrador de Cabeça
+ENEMY.HEART_HUGGER	Abraça-Coração
+ENEMY.HIDDEN	Sr. Oculto
+ENEMY.HUNTER	Caçador
+ENEMY.OOGLY	Oogly
+ENEMY.ROBE	Robe
+ENEMY.RUNNER	Ceifador
+ENEMY.SHADOW	Assombração
+ENEMY.SLOW_MOUTH	Cuspidor
+ENEMY.SLOW_WALKER	Arrastado
+ENEMY.SPINNY	Roda da Fortuna
+ENEMY.THIN_MAN	Criança Sombria
+ENEMY.TICK	Carrapato
+ENEMY.TRICYCLE	Bella
+ENEMY.TUMBLER	Cozinheiro Chef
+ENEMY.UPSCREAM	Gritador
+ENEMY.VALUABLE_THROWER	Pirralho
+
+== Estande de melhorias ==
+UPGRADE_STAND.INTERACT	Segure para Sortear de Novo ({cost})
+
+== Arena ==
+ARENA.WINNER.KING	Rei dos Perdedores!
+ARENA.WINNER.LOSERS	Todo Mundo Perdeu!
+ARENA.MESSAGE.LAST_LOSER_STANDING	O Maior Perdedor
+ARENA.MESSAGE.GAME_OVER	Fim de Jogo
+
+== Lista de espectadores ==
+SPECTATE_LIST.HEADER	Os Destruídos:

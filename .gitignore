@@ -1,0 +1,13 @@
+# Build
+bin/
+obj/
+*.user
+
+# Artefato de build — o DeployPack copia a DLL para cá na hora de empacotar
+package/plugins/*.dll
+
+# Zips de release do Thunderstore
+*.zip
+
+# Caminhos locais de build (use o .example como base)
+Directory.Build.props

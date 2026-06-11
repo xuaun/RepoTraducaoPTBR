@@ -1,0 +1,8 @@
+<Project>
+  <!-- Copie este arquivo para "Directory.Build.props" e ajuste os caminhos da sua máquina.
+       (Alternativa: defina as variáveis de ambiente REPO_MANAGED_PATH e BEPINEX_CORE_PATH.) -->
+  <PropertyGroup>
+    <RepoPath>C:\caminho\para\REPO\REPO_Data\Managed\</RepoPath>
+    <BepInExPath>C:\caminho\para\BepInEx\core\</BepInExPath>
+  </PropertyGroup>
+</Project>
