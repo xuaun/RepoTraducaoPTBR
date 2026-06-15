@@ -1,8 +1,26 @@
 // MoreHead Bridge — dicionário pt-BR (XUnity.AutoTranslator)
 // Formato: Texto original=Tradução   |   Regex: r:"^padrão$"=Tradução com $1
 // Linhas iniciadas por // são comentários. Apague qualquer linha que prefira manter em inglês.
+//
+// ÍNDICE:
+//    1. Menu — abas, categorias, busca e destaques
+//    2. Botões / ações gerais
+//    3. Menu Tools / ícones e geração
+//    4. Cosmetic Customizer — aparência, cor e correções (Shift+clique)
+//    5. Cor animada / personalizada (popups A e C)
+//    6. Seguidores (World) e variantes
+//    7. Mini-Semibot (popup)
+//    8. Opções genéricas (tri-state, intensidades, distâncias)
+//    9. Rótulos de categoria (SubLabels do Bridge)
+//   10. Bones / slots (anchors de offset)
+//   11. PartShrinker (malhas do jogador)
+//   12. Customizer — sliders de offset
+//   13. Condições de formato / ocultar — rótulos amigáveis
+//   14. Sync Customizer — preview, regras e tags
+//   15. Gatilhos compostos gerados (Special Position Fixes / Hide)
+//   16. Identidades e padrões dinâmicos
 
-// ── Tabs e categorias do menu ────────────────────────────────────────────────
+// ── 1. Menu — abas, categorias, busca e destaques ─────────────────────────────────────────
 SEARCH=BUSCA
 SELECTED=VESTINDO
 EQUIPPED=EQUIPADOS
@@ -17,8 +35,23 @@ OUTFIT=ROUPA
 OUTFITS=ROUPAS
 Type to Search...=Digite para buscar...
 Ctrl+click \= Fav\nAlt+click \= Hide\nShift+click \= Edit=Ctrl+clique \= Fav\nAlt+clique \= Ocultar\nShift+clique \= Editar
+Bridge Border Highlight=Destaque de Borda Bridge
+Modded Border Highlight=Destaque de Borda Modded
+Type to search cosmetics here :)=Digite aqui para buscar cosméticos :)
+Add a favorite with Ctrl+click :)=Adicione um favorito com Ctrl+clique :)
+Hide cosmetics with Alt+click :P=Oculte cosméticos com Alt+clique :P
+Type to filter...=Digite para filtrar...
+Presets=Conjunto
+PRESETS=CONJUNTO
+Equip a cosmetic to see it here :3=Equipe um cosmético para vê-lo aqui :3
+No cosmetics found :'(=Nenhum cosmético encontrado :'(
+Mini-Semibot=Mini-Semibot
+Press [interact]=Aperte [interact]
+Del=Del
+ALL=TODOS
+Animated color=Cor animada
 
-// ── Botões / ações gerais ────────────────────────────────────────────────────
+// ── 2. Botões / ações gerais ─────────────────────────────────────────
 Back=Voltar
 Cancel=Cancelar
 Confirm=Confirmar
@@ -39,44 +72,38 @@ Export Settings=Exportar Edições
 No items selected=Nenhum item selecionado
 Preview=Prévia
 Starting...=Iniciando...
+Edit Offset=Editar Ajuste
+Remove Offset=Remover Ajuste
+Remove anim=Remover anim.
+Remove custom=Remover cor
+Delete=Apagar
+(no entries)=(sem entradas)
+Add Offset=Adicionar Ajuste
+Close=Fechar
+Refresh=Atualizar
 
-// ── Menu Tools / ícones ──────────────────────────────────────────────────────
+// ── 3. Menu Tools / ícones e geração ─────────────────────────────────────────
 Generate Icons=Gerar Ícones
 Generate\nIcons=Gerar\nÍcones
 Clear All Icons=Apagar Ícones
 Clear All\nIcons=Apagar\nÍcones
-Sync Customizer=Sincronizar Ajustes
-Sync\nCustomizer=Sinc.\nAjustes
 Delete Icon=Apagar Ícone
 Recapture Icon=Recapturar Ícone
 Use Isolated Icon Render=Pegar só o item no Ícone
 Icon=Ícone
 r:"^Generating icons: (\d+)/(\d+) \((\d+)%\)$"=Gerando ícones: $1/$2 ($3%)
 r:"^Generating icons: (\d+)/(\d+) \((\d+)%\)  \|  (\d+) failed$"=Gerando ícones: $1/$2 ($3%)  |  $4 falhados
+Isolated Icon=Ícone Isolado
+Generating Icons=Gerando Ícones
+Press ESC to stop early\n\nTip: close the menu anytime to pause — reopen it to resume where you left off=Aperte ESC para sair antes de terminar\n\nDica: feche o menu a qualquer momento para pausar — reabra para continuar de onde parou
+Press ESC to stop early\n\nTip: hovering a cosmetic with no icon captures it automatically=Aperte ESC para sair antes de terminar\n\nDica: passar o mouse num cosmético sem ícone o captura automaticamente
+r:"^(\d+) / (\d+)  \((\d+)%\)\n(\d+) failed$"=$1 / $2  ($3%)\n$4 falha(s)
 
-// ── Cosmetic Customizer (Shift + clique) ─────────────────────────────────────
+// ── 4. Cosmetic Customizer — aparência, cor e correções (Shift+clique) ─────────────────────────────────────────
 Rarity=Raridade
 Category=Categoria
 Main Category=Categoria Principal
 Sub Category=Subcategoria
-
-// — Rótulos dos sliders de categoria (SubLabels do Bridge; também aparecem no preview do Sync) —
-Head=Cabeça
-Body=Corpo
-Arms=Braços
-Legs=Pernas
-Hat=Chapéu
-Eyewear=Óculos
-Ears=Orelhas
-Face Upper=Rosto (Cima)
-Face Middle=Rosto (Meio)
-Face Lower=Rosto (Baixo)
-Bodywear Top=Roupa do Corpo (Cima)
-Bodywear Bottom=Roupa do Corpo (Baixo)
-Armwear Right=Roupa do Braço Direito
-Armwear Left=Roupa do Braço Esquerdo
-Legwear Right=Roupa da Perna Direita
-Legwear Left=Roupa da Perna Esquerda
 Change type?=Mudar o tipo?
 r:"^Changing type removes:\n(\d+) offset\(s\)$"=Mudar o tipo remove:\n$1 ajuste(s)
 Appearance=Aparência
@@ -103,12 +130,26 @@ Fix Crown Error=Corrigir Erro da Coroa
 Death Head →=Cabeça Destruída →
 Impact Pose=Pose no Impacto
 Impact Pose →=Pose no Impacto →
-Remove Offset=Remover Ajuste
-Remove anim=Remover anim.
-Remove custom=Remover cor
 Material slot:=Slot de material:
 Sequence:=Sequência de cores:
-Disable Spring=Desativar Balanço
+Trigger=Gatilho
+None=Nenhum
+Lerp Speed=Velocidade da Animação
+Priority=Prioridade
+Show on Death Head=Na Cabeça Destruída
+Player - DeathHead=Cabeça Destruída
+React when dead=Reagir quando morto
+React when alive=Reagir quando vivo
+Hide when equipped:=Ao equipar → Ocultar:
+Hide when condition:=Condição para Ocultar:
+Custom color=Cor personalizada
+Fix Crown=Corrigir Coroa
+
+// ── 5. Cor animada / personalizada (popups A e C) ─────────────────────────────────────────
+sr:"^Animate Color(?<slot_i>(?:  \(slot \d+\))?)\n(?<name>.+)$"=Animar Cor${slot_i}\n${name}
+sr:"^Custom Color(?<slot_i>(?:  \(slot \d+\))?)\n(?<name>.+)$"=Cor Personalizada${slot_i}\n${name}
+Cycle Smooth=Ciclo Suave
+Rainbow=Arco-Íris
 Direction=Direção
 Speed=Velocidade
 Mode=Modo
@@ -117,8 +158,14 @@ Ping-Pong=Vai-e-Volta
 scrub the palette=passar pelas cores da paleta
 seconds per hue loop=segundos por ciclo de matiz
 seconds per step=segundos por etapa
+Custom Colors=Cores Personalizadas
+Color Animations=Cores Animadas
 
-// ── Opções de seguidores (world cosmetics) ────────────────────────────────────────────────
+// ── 6. Seguidores (World) e variantes ─────────────────────────────────────────
+sr:"^(?<name>.+) - Pride Colors$"=${name} - Cores do Orgulho
+sr:"^(?<name>.+) - Colors$"=${name} - Cores
+Variants=Variantes
+Disable Spring=Desativar Balanço
 World=Seguidores
 Show To Self (In Game)=Mostrar Para Si (Em Jogo)
 Follow Smoothing=Suavização de Movimento
@@ -126,7 +173,9 @@ Avoid Walls=Evitar Paredes
 Soft=Suave
 Bouncy=Balançando
 
-// ── Mini-Semibot (popup) ─────────────────────────────────────────────────────
+// ── 7. Mini-Semibot (popup) ─────────────────────────────────────────
+State Effects=Efeitos de Estado
+Footstep Sounds=Sons de Passos
 Behavior=Comportamento
 Behaviour=Comportamento
 Position=Posição
@@ -173,12 +222,12 @@ Movement=Movimento
 When You Die=Quando Você Morre
 Death Head=Cabeça Destruída
 Crouch & Wait=Agachar e Esperar
-Hide=Ocultar
 Hide on Kart=Ocultar no Kart
 Show Mini=Mostrar Mini
 Expression Preview=Prévia de Expressões
 
-// ── Opções genéricas (sliders tri-state, intensidades, distâncias) ───────────
+// ── 8. Opções genéricas (tri-state, intensidades, distâncias) ─────────────────────────────────────────
+Hide=Ocultar
 Default=Padrão
 On=Ligado
 Off=Desligado
@@ -195,29 +244,76 @@ Near=Perto
 Far=Longe
 Fixed=Corrigido
 
-Bridge Border Highlight=Destaque de Borda Bridge
-Modded Border Highlight=Destaque de Borda Modded
-Type to search cosmetics here :)=Digite aqui para buscar cosméticos :)
-Add a favorite with Ctrl+click :)=Adicione um favorito com Ctrl+clique :)
-Hide cosmetics with Alt+click :P=Oculte cosméticos com Alt+clique :P
-Type to filter...=Digite para filtrar...
-Delete=Apagar
-(no entries)=(sem entradas)
-Add Offset=Adicionar Ajuste
-Trigger=Gatilho
-None=Nenhum
-Lerp Speed=Velocidade da Animação
-Priority=Prioridade
-Show on Death Head=Na Cabeça Destruída
-Player - DeathHead=Cabeça Destruída
-React when dead=Reagir quando morto
-React when alive=Reagir quando vivo
-Hide when equipped:=Ao equipar → Ocultar:
-Hide when condition:=Condição para Ocultar:
-Presets=Conjunto
-PRESETS=CONJUNTO
+// ── 9. Rótulos de categoria (SubLabels do Bridge) ─────────────────────────────────────────
+Head=Cabeça
+Body=Corpo
+Arms=Braços
+Legs=Pernas
+Hat=Chapéu
+Eyewear=Óculos
+Ears=Orelhas
+Face Upper=Rosto (Cima)
+Face Middle=Rosto (Meio)
+Face Lower=Rosto (Baixo)
+Bodywear Top=Roupa do Corpo (Cima)
+Bodywear Bottom=Roupa do Corpo (Baixo)
+Armwear Right=Roupa do Braço Direito
+Armwear Left=Roupa do Braço Esquerdo
+Legwear Right=Roupa da Perna Direita
+Legwear Left=Roupa da Perna Esquerda
 
-// ── Condições de formato/ocultar ───────────────────────────
+// ── 10. Bones / slots (anchors de offset) ─────────────────────────────────────────
+Leg Left=Perna Esquerda
+Leg Right=Perna Direita
+Arm Left=Braço Esquerdo
+Arm Right=Braço Direito
+Body Top=Corpo (Cima)
+Body Top Mesh=Malha do Corpo (Cima)
+Body Bottom=Corpo (Baixo)
+Body Bottom Mesh=Malha do Corpo (Cima)
+Face Top=Rosto (Cima)
+Face Bottom=Rosto (Baixo)
+Head Top=Cabeça (Cima)
+Head Top (Hair)=Cabeça (Cabelo)
+Head Bottom=Cabeça (Baixo)
+Head Bottom Mesh=Malha da Cabeça (Baixo)
+Eye Lid Left=Pálpebra Esquerda
+Eye Lid Right=Pálpebra Direita
+Foot Left=Pé Esquerdo
+Foot Right=Pé Direito
+Grabber=Garra
+Footwear Left=Calçado Esquerdo
+Footwear Right=Calçado Direito
+Arm Left Overlay=Revestimento do Braço Esquerdo
+Arm Right Overlay=Revestimento do Braço Direito
+Leg Left Overlay=Revestimento da Perna Esquerda
+Leg Right Overlay=Revestimento da Perna Direita
+Body Top Overlay=Revestimento do Corpo (Cima)
+Body Bottom Overlay=Revestimento do Corpo (Baixo)
+
+// ── 11. PartShrinker (malhas do jogador) ─────────────────────────────────────────
+Head Mesh=Malha da Cabeça
+Chin Mesh=Malha do Queixo
+Eyelid R Mesh=Pálpebra D
+Eyelid L Mesh=Pálpebra E
+Body Bot Mesh=Malha do Corpo (Baixo)
+Arm R Mesh=Malha do Braço D
+Arm L Mesh=Malha do Braço E
+Leg R Mesh=Malha do Perna D
+Leg L Mesh=Malha do Perna E
+
+// ── 12. Customizer — sliders de offset ─────────────────────────────────────────
+Pos X=Pos X
+Pos Y=Pos Y
+Pos Z=Pos Z
+Rot X=Rot X
+Rot Y=Rot Y
+Rot Z=Rot Z
+Scale X=Escala X
+Scale Y=Escala Y
+Scale Z=Escala Z
+
+// ── 13. Condições de formato / ocultar — rótulos amigáveis ─────────────────────────────────────────
 Wide Shape=Formato Largo
 Overlaps Face Top=Sobrepõe o Rosto (Cima)
 Overlaps Face Bottom=Sobrepõe o Rosto (Baixo)
@@ -227,17 +323,6 @@ Hide Right Eyebrow=Ocultar Sobrancelha Direita
 Covers Head Top=Cobre a Cabeça (Cima)
 Disable Left Eye=Esconde o Olho Esquerdo
 Disable Right Eye=Esconde o Olho Direito
-Hat - Shape Wide=Chapéu - Formato Largo
-Hat - Overlap FaceTop=Chapéu - Sobrepõe o Rosto (Cima)
-Hat - Overlap FaceBottom=Chapéu - Sobrepõe o Rosto (Baixo)
-Hat - Push Out Eyebrows Big=Chapéu - Empurrar Sobrancelhas (Grandes)
-Hat - Push Out Eyebrows Small=Chapéu - Empurrar Sobrancelhas (Pequenas)
-Hat - Hide Right Eyebrow=Chapéu - Ocultar Sobrancelha Direita
-Top - Covered TopMiddle=Topo - Cobrir Cima/Meio
-Eye Left - Disable=Olho Esquerdo - Escondido
-Eye Right - Disable=Olho Direito - Escondido
-
-// — Rótulos amigáveis (popups Shape Conditions / Hide Conditions) —
 Protrudes=Sobressai
 Protrudes (Front)=Sobressai (Frente)
 Face Bottom Protrudes=Rosto (Baixo) - Se Sobressai
@@ -296,178 +381,13 @@ Left Leg: Big Lower=Perna Esquerda: Grande em Baixo
 Left Leg: Huge=Perna Esquerda: Enorme
 Left Leg: Tiny=Perna Esquerda: Pequena
 
-// — Gatilhos gerados (Special Position Fixes / Hide when condition) —
-// "Top/Bottom" = topo da cabeça (cabelo) / base da cabeça (queixo); as versões
-// "Head Top/Head Bottom" aparecem na lista de gatilhos do World.
-Top - Big=Parte de Cima - Grande
-Top - Tiny=Parte de Cima - Pequeno
-Top - Default=Parte de Cima - Padrão
-Top - Unchanged=Parte de Cima - Inalterado
-Top - Missing Right=Parte de Cima - Faltando o Lado Direito
-Head Top - Big=Cabeça (Cima) - Grande
-Head Top - Tiny=Cabeça (Cima) - Pequeno
-Head Top - Default=Cabeça (Cima) - Padrão
-Head Top - Unchanged=Cabeça (Cima) - Inalterado
-Head Top - Missing Right=Cabeça (Cima) - Faltando o Lado Direito
-Head Top - Covered TopMiddle=Cabeça (Cima) - Cobrir Cima/Meio
-Bottom - Big=Parte de Baixo - Grande
-Bottom - Tiny=Parte de Baixo - Pequena
-Bottom - Default=Parte de Baixo - Padrão
-Bottom - Unchanged=Parte de Baixo - Inalterada
-Bottom - Protrude=Parte de Baixo - Sobressai
-Bottom - Overlap Body Top=Parte de Baixo - Sobrepõe o Corpo (Cima)
-Bottom - OverrideFlat=Parte de Baixo - Forçar Achatado
-Bottom - State Flat=Parte de Baixo - Estado Achatado
-Head Bottom - Big=Cabeça (Baixo) - Grande
-Head Bottom - Tiny=Cabeça (Baixo) - Pequena
-Head Bottom - Default=Cabeça (Baixo) - Padrão
-Head Bottom - Unchanged=Cabeça (Baixo) - Inalterada
-Head Bottom - Protrude=Cabeça (Baixo) - Sobressai
-Head Bottom - Overlap Body Top=Cabeça (Baixo) - Sobrepõe o Corpo (Cima)
-FaceTop - Covered Middle=Rosto (Cima) - Cobre o Meio
-FaceTop - Covered Left=Rosto (Cima) - Cobre a Esquerda
-FaceTop - Covered Right=Rosto (Cima) - Cobre a Direita
-FaceTop - Overlap FaceBottom=Rosto (Cima) - Sobrepõe o Rosto (Baixo)
-FaceTop - Shape Tall=Rosto (Cima) - Formato Alto
-FaceTop - Shape VeryTall=Rosto (Cima) - Formato Muito Alto
-FaceTop - Shape Huge=Rosto (Cima) - Formato Enorme
-FaceBottom - Protrude=Rosto (Baixo) - Sobressai
-FaceBottom - Overlap Bottom=Rosto (Baixo) - Sobrepõe a Base da Cabeça
-FaceBottom - Overlap Head Bottom=Rosto (Baixo) - Sobrepõe a Base da Cabeça
-Eyewear - Shape Tall=Óculos - Formato Alto
-Eyewear - Shape VeryTall Inner=Óculos - Formato Muito Alto (Interno)
-Eyewear - Shape VeryTall Outer=Óculos - Formato Muito Alto (Externo)
-Eyewear - Overlap FaceTop=Óculos - Sobrepõe o Rosto (Cima)
-Eyewear - Overlap FaceBottom=Óculos - Sobrepõe o Rosto (Baixo)
-Eyewear - Overlap FaceBottom Protrude=Óculos - Sobrepõe o Rosto (Baixo, Sobressai)
-Eyewear - Shape EyesLeft=Óculos - Cobre o Olho Esquerdo
-Eyewear - Shape EyesRight=Óculos - Cobre o Olho Direito
-Eyewear - Shape EyesBoth=Óculos - Cobre os Dois Olhos
-Ears - Shape Tall=Orelhas - Formato Alto
-Eye Lid RightMesh - Protrude=Pálpebra Direita - Sobressai
-Eye Lid LeftMesh - Protrude=Pálpebra Esquerda - Sobressai
-Body Top - Big=Corpo (Cima) - Grande
-Body Top - Tiny=Corpo (Cima) - Pequeno
-Body Top - Default=Corpo (Cima) - Padrão
-Body Top - Unchanged=Corpo (Cima) - Inalterado
-Body Top - Overlap Bottom=Corpo (Cima) - Sobrepõe o Pescoço
-Body Top - Overlap Head Bottom=Corpo (Cima) - Sobrepõe o Pescoço
-Body Top - Overlap Body Bottom Front=Corpo (Cima) - Sobrepõe as Calças (Frente)
-Body Top - Overlap Body Bottom Back=Corpo (Cima) - Sobrepõe as Calças (Trás)
-Body Top - OverrideFlat=Corpo (Cima) - Forçar Achatado
-Body Top - State Flat=Corpo (Cima) - Estado Achatado
-Body Bottom - Big=Corpo (Baixo) - Grande
-Body Bottom - Wide=Corpo (Baixo) - Largo
-Body Bottom - Tall=Corpo (Baixo) - Alto
-Body Bottom - Tiny=Corpo (Baixo) - Pequeno
-Body Bottom - Default=Corpo (Baixo) - Padrão
-Body Bottom - Unchanged=Corpo (Baixo) - Inalterado
-Body Bottom - Protrude=Corpo (Baixo) - Sobressai
-Body Bottom - ProtrudeFront=Corpo (Baixo) - Sobressai (Frente)
-Arm Right - Big=Braço Direito - Grande
-Arm Right - Big Upper=Braço Direito - Cima Grande
-Arm Right - Big Lower=Braço Direito - Baixo Grande
-Arm Right - Huge=Braço Direito - Enorme
-Arm Right - Tiny=Braço Direito - Pequeno
-Arm Right - Default=Braço Direito - Padrão
-Arm Right - Unchanged=Braço Direito - Inalterado
-Arm Left - Big=Braço Esquerdo - Grande
-Arm Left - Big Upper=Braço Esquerdo - Cima Grande
-Arm Left - Big Lower=Braço Esquerdo - Baixo Grande
-Arm Left - Huge=Braço Esquerdo - Enorme
-Arm Left - Tiny=Braço Esquerdo - Pequeno
-Arm Left - Default=Braço Esquerdo - Padrão
-Arm Left - Unchanged=Braço Esquerdo - Inalterado
-Leg Right - Big=Perna Direita - Grande
-Leg Right - Big Upper=Perna Direita - Cima Grande
-Leg Right - Big Lower=Perna Direita - Baixo Grande
-Leg Right - Huge=Perna Direita - Enorme
-Leg Right - Tiny=Perna Direita - Pequena
-Leg Right - Default=Perna Direita - Padrão
-Leg Right - Unchanged=Perna Direita - Inalterada
-Leg Left - Big=Perna Esquerda - Grande
-Leg Left - Big Upper=Perna Esquerda - Cima Grande
-Leg Left - Big Lower=Perna Esquerda - Baixo Grande
-Leg Left - Huge=Perna Esquerda - Enorme
-Leg Left - Tiny=Perna Esquerda - Pequena
-Leg Left - Default=Perna Esquerda - Padrão
-Leg Left - Unchanged=Perna Esquerda - Inalterada
-Foot Right - Protrude=Pé Direito - Sobressai
-Foot Right - Shape Short=Pé Direito - Formato Curto
-Foot Right - Shape Normal=Pé Direito - Formato Normal
-Foot Right - Shape Long=Pé Direito - Formato Longo
-Foot Left - Protrude=Pé Esquerdo - Sobressai
-Foot Left - Shape Short=Pé Esquerdo - Formato Curto
-Foot Left - Shape Normal=Pé Esquerdo - Formato Normal
-Foot Left - Shape Long=Pé Esquerdo - Formato Longo
-Player - LookDown Restrict=Jogador - Restringir Olhar p/ Baixo
-Player - Crown=Jogador - Coroa
-
-// ── Bones / slots (gatilhos de offset e tabs virtuais) ───────────────────────
-Leg Left=Perna Esquerda
-Leg Right=Perna Direita
-Arm Left=Braço Esquerdo
-Arm Right=Braço Direito
-Body Top=Corpo (Cima)
-Body Top Mesh=Malha do Corpo (Cima)
-Body Bottom=Corpo (Baixo)
-Body Bottom Mesh=Malha do Corpo (Cima)
-Face Top=Rosto (Cima)
-Face Bottom=Rosto (Baixo)
-Head Top=Cabeça (Cima)
-Head Top (Hair)=Cabeça (Cabelo)
-Head Bottom=Cabeça (Baixo)
-Head Bottom Mesh=Malha da Cabeça (Baixo)
-Eye Lid Left=Pálpebra Esquerda
-Eye Lid Right=Pálpebra Direita
-Foot Left=Pé Esquerdo
-Foot Right=Pé Direito
-Grabber=Garra
-Footwear Left=Calçado Esquerdo
-Footwear Right=Calçado Direito
-Arm Left Overlay=Revestimento do Braço Esquerdo
-Arm Right Overlay=Revestimento do Braço Direito
-Leg Left Overlay=Revestimento da Perna Esquerda
-Leg Right Overlay=Revestimento da Perna Direita
-Body Top Overlay=Revestimento do Corpo (Cima)
-Body Bottom Overlay=Revestimento do Corpo (Baixo)
-
-// ── PartShrinker (nomes reais das malhas do jogador, como o jogo exibe) ───────
-Head Mesh=Malha da Cabeça
-Chin Mesh=Malha do Queixo
-Eyelid R Mesh=Pálpebra D
-Eyelid L Mesh=Pálpebra E
-Body Bot Mesh=Malha do Corpo (Baixo)
-Arm R Mesh=Malha do Braço D
-Arm L Mesh=Malha do Braço E
-Leg R Mesh=Malha do Perna D
-Leg L Mesh=Malha do Perna E
-
-// ── Customizer (sliders de offset) ────────────────────────────────────────────
-Pos X=Pos X
-Pos Y=Pos Y
-Pos Z=Pos Z
-Rot X=Rot X
-Rot Y=Rot Y
-Rot Z=Rot Z
-Scale X=Escala X
-Scale Y=Escala Y
-Scale Z=Escala Z
-
-// ── Outros textos do Bridge ───────────────────────────────────────────────────
-Equip a cosmetic to see it here :3=Equipe um cosmético para vê-lo aqui :3
-No cosmetics found :'(=Nenhum cosmético encontrado :'(
-Custom color=Cor personalizada
-Mini-Semibot=Mini-Semibot
-Press [interact]=Aperte [interact]
-
-// ── Sync Customizer (popup Sincronizar/Copiar) ────────────────────────────────
+// ── 14. Sync Customizer — preview, regras e tags ─────────────────────────────────────────
+Sync Customizer=Sincronizar Ajustes
+Sync\nCustomizer=Sinc.\nAjustes
 Sync/Copy\nCosmetic Settings=Sincronizar/Copiar\nConfigurações de Cosméticos
 All=Todos
 Player=Jogador
 Import=Copiar
-Close=Fechar
-Refresh=Atualizar
 (no override data)=(sem ajustes)
 NEW=NOVO
 \= same=\= igual
@@ -478,8 +398,6 @@ r:"^\.\.\.and (\d+) more$"=...e mais $1
 r:"^≠ yours: (\d+) rule\(s\)$"=≠ seu: $1 regra(s)
 r:"^≠ yours: (\d+)$"=≠ seu: $1
 r:"^≠ yours: (.+)$"=≠ seu: $1
-
-// — Campos do preview —————————————————————————————
 Impact Pose: configured=Pose ao Impactar: configurada
 Crown: configured=Usando Coroa: configurado
 Death Head: hidden=Em Cabeça Destruída: oculto
@@ -490,38 +408,8 @@ Loop on=Loop ligado
 Loop off=Loop desligado
 Border: on=Borda: ligada
 Border: off=Borda: desligada
-Custom Colors=Cores Personalizadas
-Color Animations=Cores Animadas
-Isolated Icon=Ícone Isolado
-Fix Crown=Corrigir Coroa
 r:"^Rarity: ([^<]+)$"=Raridade: $1
 r:"^Equip Anim: ([^<]+)$"=Anim. de Equipar: $1
-
-// — Identidades para os hex de cor que o sr de preview captura —
-A6FFA6=A6FFA6
-808080=808080
-FF9E59=FF9E59
-99CCFF=99CCFF
-FF6666=FF6666
-
-// ── Geração de ícones ─────────────────────────────────────────────────────────
-Generating Icons=Gerando Ícones
-// O Bridge (>= esta build) separa números do texto fixo em dois TMPs:
-Press ESC to stop early\n\nTip: close the menu anytime to pause — reopen it to resume where you left off=Aperte ESC para sair antes de terminar\n\nDica: feche o menu a qualquer momento para pausar — reabra para continuar de onde parou
-Press ESC to stop early\n\nTip: hovering a cosmetic with no icon captures it automatically=Aperte ESC para sair antes de terminar\n\nDica: passar o mouse num cosmético sem ícone o captura automaticamente
-r:"^(\d+) / (\d+)  \((\d+)%\)\n(\d+) failed$"=$1 / $2  ($3%)\n$4 falha(s)
-
-// ── Menu de cosméticos (textos restantes) ─────────────────────────────────────
-Del=Del
-ALL=TODOS
-Animated color=Cor animada
-
-// ── Padrões dinâmicos: sufixo de duplicata "(1)" do Bridge e prefixo de favorito.
-//    sr: traduz o trecho capturado pelo dicionário e remonta o resto.
-sr:"^(.+)\((\d+)\)$"="$1($2)"
-sr:"^\[FAV\] (.+)$"="[FAV] $1"
-
-// ── Sync Customizer: linhas de preview ("Campo  <color=#HEX>STATUS</color>").
 sr:"^(.+)  <color\=#([0-9A-F]{6})>(.+)</color>$"="$1  <color\=#$2>$3</color>"
 Loop: on=Loop: ligado
 Loop: off=Loop: desligado
@@ -531,8 +419,6 @@ r:"^Offset: (\d+)$"=Ajustes de Posição: $1
 r:"^Custom: (\d+)$"=Cores Person.: $1
 r:"^Type: ([^<]+)$"=Tipo: $1
 r:"^Sway: ([^<]+)$"=Balanço: $1
-
-// — "Type: X" / "≠ yours: X" com os rótulos do Bridge (SubLabels) —
 Type: Hat=Tipo: Chapéu
 Type: Eyewear=Tipo: Óculos
 Type: Ears=Tipo: Orelhas
@@ -583,8 +469,6 @@ Type: World=Tipo: Seguidor
 ≠ yours: Footwear Right=≠ seu: Calçado Direito
 ≠ yours: Footwear Left=≠ seu: Calçado Esquerdo
 ≠ yours: World=≠ seu: Seguidor
-
-// — "Sway:" / "Anim:" / "Tint:" e suas variantes de status —
 Sway: Light=Balanço: Leve
 Sway: Moderate=Balanço: Moderado
 Sway: Strong=Balanço: Forte
@@ -601,10 +485,6 @@ Anim: Loop off=Anim: Loop desligado
 ≠ yours: Loop: off=≠ seu: Loop: desligado
 ≠ yours: Tint: on=≠ seu: Pintura: ligada
 ≠ yours: Tint: off=≠ seu: Pintura: desligada
-
-// ── Sync Customizer: tags da lista principal ──
-//    Ordem fixa: Type Sway Offset Custom Crown Death Anim Tint Hide; máx. 3 visíveis,
-//    com " ..." quando há mais.
 [Type]=[Tipo]
 [Sway]=[Balan]
 [Offset]=[Ajuste]
@@ -818,3 +698,126 @@ Anim: Loop off=Anim: Loop desligado
 [Death] [Tint] [Hide] ...=[Destr] [Pint] [Ocult] ...
 [Anim] [Tint] [Hide]=[Anim] [Pint] [Ocult]
 [Anim] [Tint] [Hide] ...=[Anim] [Pint] [Ocult] ...
+
+// ── 15. Gatilhos compostos gerados (Special Position Fixes / Hide) ─────────────────────────────────────────
+Hat - Shape Wide=Chapéu - Formato Largo
+Hat - Overlap FaceTop=Chapéu - Sobrepõe o Rosto (Cima)
+Hat - Overlap FaceBottom=Chapéu - Sobrepõe o Rosto (Baixo)
+Hat - Push Out Eyebrows Big=Chapéu - Empurrar Sobrancelhas (Grandes)
+Hat - Push Out Eyebrows Small=Chapéu - Empurrar Sobrancelhas (Pequenas)
+Hat - Hide Right Eyebrow=Chapéu - Ocultar Sobrancelha Direita
+Top - Covered TopMiddle=Topo - Cobrir Cima/Meio
+Eye Left - Disable=Olho Esquerdo - Escondido
+Eye Right - Disable=Olho Direito - Escondido
+Top - Big=Parte de Cima - Grande
+Top - Tiny=Parte de Cima - Pequeno
+Top - Default=Parte de Cima - Padrão
+Top - Unchanged=Parte de Cima - Inalterado
+Top - Missing Right=Parte de Cima - Faltando o Lado Direito
+Head Top - Big=Cabeça (Cima) - Grande
+Head Top - Tiny=Cabeça (Cima) - Pequeno
+Head Top - Default=Cabeça (Cima) - Padrão
+Head Top - Unchanged=Cabeça (Cima) - Inalterado
+Head Top - Missing Right=Cabeça (Cima) - Faltando o Lado Direito
+Head Top - Covered TopMiddle=Cabeça (Cima) - Cobrir Cima/Meio
+Bottom - Big=Parte de Baixo - Grande
+Bottom - Tiny=Parte de Baixo - Pequena
+Bottom - Default=Parte de Baixo - Padrão
+Bottom - Unchanged=Parte de Baixo - Inalterada
+Bottom - Protrude=Parte de Baixo - Sobressai
+Bottom - Overlap Body Top=Parte de Baixo - Sobrepõe o Corpo (Cima)
+Bottom - OverrideFlat=Parte de Baixo - Forçar Achatado
+Bottom - State Flat=Parte de Baixo - Estado Achatado
+Head Bottom - Big=Cabeça (Baixo) - Grande
+Head Bottom - Tiny=Cabeça (Baixo) - Pequena
+Head Bottom - Default=Cabeça (Baixo) - Padrão
+Head Bottom - Unchanged=Cabeça (Baixo) - Inalterada
+Head Bottom - Protrude=Cabeça (Baixo) - Sobressai
+Head Bottom - Overlap Body Top=Cabeça (Baixo) - Sobrepõe o Corpo (Cima)
+FaceTop - Covered Middle=Rosto (Cima) - Cobre o Meio
+FaceTop - Covered Left=Rosto (Cima) - Cobre a Esquerda
+FaceTop - Covered Right=Rosto (Cima) - Cobre a Direita
+FaceTop - Overlap FaceBottom=Rosto (Cima) - Sobrepõe o Rosto (Baixo)
+FaceTop - Shape Tall=Rosto (Cima) - Formato Alto
+FaceTop - Shape VeryTall=Rosto (Cima) - Formato Muito Alto
+FaceTop - Shape Huge=Rosto (Cima) - Formato Enorme
+FaceBottom - Protrude=Rosto (Baixo) - Sobressai
+FaceBottom - Overlap Bottom=Rosto (Baixo) - Sobrepõe a Base da Cabeça
+FaceBottom - Overlap Head Bottom=Rosto (Baixo) - Sobrepõe a Base da Cabeça
+Eyewear - Shape Tall=Óculos - Formato Alto
+Eyewear - Shape VeryTall Inner=Óculos - Formato Muito Alto (Interno)
+Eyewear - Shape VeryTall Outer=Óculos - Formato Muito Alto (Externo)
+Eyewear - Overlap FaceTop=Óculos - Sobrepõe o Rosto (Cima)
+Eyewear - Overlap FaceBottom=Óculos - Sobrepõe o Rosto (Baixo)
+Eyewear - Overlap FaceBottom Protrude=Óculos - Sobrepõe o Rosto (Baixo, Sobressai)
+Eyewear - Shape EyesLeft=Óculos - Cobre o Olho Esquerdo
+Eyewear - Shape EyesRight=Óculos - Cobre o Olho Direito
+Eyewear - Shape EyesBoth=Óculos - Cobre os Dois Olhos
+Ears - Shape Tall=Orelhas - Formato Alto
+Eye Lid RightMesh - Protrude=Pálpebra Direita - Sobressai
+Eye Lid LeftMesh - Protrude=Pálpebra Esquerda - Sobressai
+Body Top - Big=Corpo (Cima) - Grande
+Body Top - Tiny=Corpo (Cima) - Pequeno
+Body Top - Default=Corpo (Cima) - Padrão
+Body Top - Unchanged=Corpo (Cima) - Inalterado
+Body Top - Overlap Bottom=Corpo (Cima) - Sobrepõe o Pescoço
+Body Top - Overlap Head Bottom=Corpo (Cima) - Sobrepõe o Pescoço
+Body Top - Overlap Body Bottom Front=Corpo (Cima) - Sobrepõe as Calças (Frente)
+Body Top - Overlap Body Bottom Back=Corpo (Cima) - Sobrepõe as Calças (Trás)
+Body Top - OverrideFlat=Corpo (Cima) - Forçar Achatado
+Body Top - State Flat=Corpo (Cima) - Estado Achatado
+Body Bottom - Big=Corpo (Baixo) - Grande
+Body Bottom - Wide=Corpo (Baixo) - Largo
+Body Bottom - Tall=Corpo (Baixo) - Alto
+Body Bottom - Tiny=Corpo (Baixo) - Pequeno
+Body Bottom - Default=Corpo (Baixo) - Padrão
+Body Bottom - Unchanged=Corpo (Baixo) - Inalterado
+Body Bottom - Protrude=Corpo (Baixo) - Sobressai
+Body Bottom - ProtrudeFront=Corpo (Baixo) - Sobressai (Frente)
+Arm Right - Big=Braço Direito - Grande
+Arm Right - Big Upper=Braço Direito - Cima Grande
+Arm Right - Big Lower=Braço Direito - Baixo Grande
+Arm Right - Huge=Braço Direito - Enorme
+Arm Right - Tiny=Braço Direito - Pequeno
+Arm Right - Default=Braço Direito - Padrão
+Arm Right - Unchanged=Braço Direito - Inalterado
+Arm Left - Big=Braço Esquerdo - Grande
+Arm Left - Big Upper=Braço Esquerdo - Cima Grande
+Arm Left - Big Lower=Braço Esquerdo - Baixo Grande
+Arm Left - Huge=Braço Esquerdo - Enorme
+Arm Left - Tiny=Braço Esquerdo - Pequeno
+Arm Left - Default=Braço Esquerdo - Padrão
+Arm Left - Unchanged=Braço Esquerdo - Inalterado
+Leg Right - Big=Perna Direita - Grande
+Leg Right - Big Upper=Perna Direita - Cima Grande
+Leg Right - Big Lower=Perna Direita - Baixo Grande
+Leg Right - Huge=Perna Direita - Enorme
+Leg Right - Tiny=Perna Direita - Pequena
+Leg Right - Default=Perna Direita - Padrão
+Leg Right - Unchanged=Perna Direita - Inalterada
+Leg Left - Big=Perna Esquerda - Grande
+Leg Left - Big Upper=Perna Esquerda - Cima Grande
+Leg Left - Big Lower=Perna Esquerda - Baixo Grande
+Leg Left - Huge=Perna Esquerda - Enorme
+Leg Left - Tiny=Perna Esquerda - Pequena
+Leg Left - Default=Perna Esquerda - Padrão
+Leg Left - Unchanged=Perna Esquerda - Inalterada
+Foot Right - Protrude=Pé Direito - Sobressai
+Foot Right - Shape Short=Pé Direito - Formato Curto
+Foot Right - Shape Normal=Pé Direito - Formato Normal
+Foot Right - Shape Long=Pé Direito - Formato Longo
+Foot Left - Protrude=Pé Esquerdo - Sobressai
+Foot Left - Shape Short=Pé Esquerdo - Formato Curto
+Foot Left - Shape Normal=Pé Esquerdo - Formato Normal
+Foot Left - Shape Long=Pé Esquerdo - Formato Longo
+Player - LookDown Restrict=Jogador - Restringir Olhar p/ Baixo
+Player - Crown=Jogador - Coroa
+
+// ── 16. Identidades e padrões dinâmicos ─────────────────────────────────────────
+A6FFA6=A6FFA6
+808080=808080
+FF9E59=FF9E59
+99CCFF=99CCFF
+FF6666=FF6666
+sr:"^(.+)\((\d+)\)$"="$1($2)"
+sr:"^\[FAV\] (.+)$"="[FAV] $1"
