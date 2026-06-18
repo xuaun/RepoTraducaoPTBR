@@ -71,6 +71,7 @@ public class Plugin : BaseUnityPlugin
             Path.Combine(Path.GetDirectoryName(Info.Location)!, "Localizations"),
             () => _toggles["Jogo.txt"].Value,
             _harmony);
+        CurrencyPatch.Install(() => _toggles["Jogo.txt"].Value, _harmony);
 
         SyncDictionaries(forceReload: false);
         ApplyXuatConfig();

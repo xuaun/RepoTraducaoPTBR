@@ -81,6 +81,7 @@ Delete=Apagar
 Add Offset=Adicionar Ajuste
 Close=Fechar
 Refresh=Atualizar
+Use=Usar
 
 // ── 3. Menu Tools / ícones e geração ─────────────────────────────────────────
 Generate Icons=Gerar Ícones
@@ -144,6 +145,9 @@ Hide when equipped:=Ao equipar → Ocultar:
 Hide when condition:=Condição para Ocultar:
 Custom color=Cor personalizada
 Fix Crown=Corrigir Coroa
+sr:"^(?<name>.+)  \(auto\)$"=${name}  (auto)
+sr:"^(?<name>.+)  \(custom\)$"=${name}  (person.)
+sr:"^(?<name>.+)  \(off\)$"=${name}  (desl.)
 
 // ── 5. Cor animada / personalizada (popups A e C) ─────────────────────────────────────────
 sr:"^Animate Color(?<slot_i>(?:  \(slot \d+\))?)\n(?<name>.+)$"=Animar Cor${slot_i}\n${name}
@@ -444,6 +448,7 @@ Type: Leg L Mesh=Tipo: Malha da Perna E
 Type: Footwear Right=Tipo: Calçado Direito
 Type: Footwear Left=Tipo: Calçado Esquerdo
 Type: World=Tipo: Seguidor
+≠ yours=≠ seu
 ≠ yours: Hat=≠ seu: Chapéu
 ≠ yours: Eyewear=≠ seu: Óculos
 ≠ yours: Ears=≠ seu: Orelhas

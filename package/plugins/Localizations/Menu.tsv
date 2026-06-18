@@ -353,8 +353,8 @@ PASSWORD.CONFIRM	Confirmar
 LOADING.LOADING	Carregando
 LOADING.STUCK_PROMPT_TOP_TEXT	Travou no carregamento?
 LOADING.STUCK_PROMPT_BOTTOM_TEXT	Aperte [menu] para voltar ao menu principal
-LOADING.LEVEL.SHOP	Loja
-LOADING.LEVEL.LEVEL_NUMBER	Nível {number}
+LOADING.LEVEL.SHOP	Posto de Serviço
+LOADING.LEVEL.LEVEL_NUMBER	Fase {number}
 LOADING.LEVEL.GAME_OVER	Fim de Jogo
 
 == Lobby ==

@@ -110,8 +110,10 @@ FULL MOON=LUA CHEIA
 Crescent Moon=Lua Crescente
 <b>FOCUS > </b>Fill all extraction points with valuables=<b>FOCO > </b>Encha todos os pontos de extração com itens valiosos
 <b>FOCUS > </b>Fill the extraction point with valuables=<b>FOCO > </b>Encha o ponto de extração com itens valiosos
+SIGNAL OFFLINE=SEM SINAL
 LAST LOSER STANDING!=O MAIOR PERDEDOR!
 KING OF THE LOSERS!=REI DOS PERDEDORES!
+Missing line!!=Linha faltando!!
 
 // ── QueenOfTheLosers: variantes pós-substituição do título (quando a tradução
 //    nativa está DESLIGADA o texto-base fica em inglês e o mod troca só o "KING") ─
@@ -190,6 +192,7 @@ Player Names=Nomes dos Jogadores
 Tips=Dicas
 Item Unequip Auto Hold=Auto-Segurar ao Desequipar Item
 Cosmetics=Cosméticos
+[press new button]=[aperte a nova tecla]
 
 // ── Controles (teclas) ───────────────────────────────────────────────────────
 MOVEMENT=MOVIMENTO
