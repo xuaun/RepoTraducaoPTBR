@@ -4,5 +4,6 @@
   <PropertyGroup>
     <RepoPath>C:\caminho\para\REPO\REPO_Data\Managed\</RepoPath>
     <BepInExPath>C:\caminho\para\BepInEx\core\</BepInExPath>
+    <TestProfileDir></TestProfileDir>
   </PropertyGroup>
 </Project>

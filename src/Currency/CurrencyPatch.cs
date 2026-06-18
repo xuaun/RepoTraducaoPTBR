@@ -17,9 +17,7 @@ internal static class CurrencyPatch
 
     private static readonly Regex MoneyRx = new Regex(@"(?<![\w$=])\$ ?(?=\s*(?:<[^>]*>\s*)*\d)", RegexOptions.Compiled);
 
-    private static readonly Regex ThousandRx = new Regex(@"(R\$ (?:\s|</?[^>]*>)*[\d.,]+(?:\s|</?[^>]*>)*)[Kk](?![A-Za-z])", RegexOptions.Compiled);
-
-    private static readonly Regex ThousandSpriteRx = new Regex(@"(<sprite name=\$+>(?:\s|</?[^>]*>)*[\d.,]+(?:\s|</?[^>]*>)*)[Kk](?![A-Za-z])", RegexOptions.Compiled);
+    private static readonly Regex ThousandRx = new Regex(@"((?:R\$ |<sprite name=\$+>)(?:\s|</?[^>]*>)*[\d.,]+(?:\s|</?[^>]*>)*)[Kk](?![A-Za-z])", RegexOptions.Compiled);
 
     private static readonly Regex DialogDollarRx = new Regex(@"(?<![\w=$])\$", RegexOptions.Compiled);
 
@@ -56,15 +54,12 @@ internal static class CurrencyPatch
 
     private static void SymbolPrefix(ref string value)
     {
-        if (value == null || value.IndexOf('$') < 0) return;
         if (!_enabled()) return;
+        if (value == null || value.IndexOf('$') < 0) return;
         if (ReferenceEquals(value, _lastGlitch)) return;
         value = MoneyRx.Replace(value, "R$$ ");
         if (value.IndexOf('K') >= 0 || value.IndexOf('k') >= 0)
-        {
             value = ThousandRx.Replace(value, "$1 mil");
-            value = ThousandSpriteRx.Replace(value, "$1 mil");
-        }
     }
 
     private static bool GlitchyPrefix(ref string __result)

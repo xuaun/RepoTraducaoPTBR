@@ -111,10 +111,13 @@ internal static class NativeLocalization
             foreach (var pair in _originals)
             {
                 StringTable? table = LocalizationSettings.StringDatabase.GetTable(pair.Key.Table, LocalizationSettings.ProjectLocale);
-                var entry = table?.GetEntry(pair.Key.Key);
-                if (entry == null) continue;
-                if (pair.Value != null) entry.Value = pair.Value;
-                else entry.Value = string.Empty;
+                if (table == null) continue;
+                if (pair.Value != null)
+                {
+                    var entry = table.GetEntry(pair.Key.Key);
+                    if (entry != null) entry.Value = pair.Value;
+                }
+                else table.RemoveEntry(pair.Key.Key);
             }
             _originals.Clear();
             _applied = false;

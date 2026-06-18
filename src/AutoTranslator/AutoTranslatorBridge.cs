@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace RepoTraducaoPTBR;
 
-internal static class Xuat
+internal static class AutoTranslatorBridge
 {
     private const BindingFlags Any = BindingFlags.Public | BindingFlags.NonPublic
                                    | BindingFlags.Instance | BindingFlags.Static;
@@ -135,7 +135,7 @@ internal static class Xuat
             Directory.CreateDirectory(Path.GetDirectoryName(path)!);
             File.WriteAllText(path, string.Empty);
         }
-        catch { }
+        catch (Exception ex) { BceConsole.LogDebug($"EnsureAutoGenFile ignorado: {ex.Message}"); }
     }
 
     internal static bool TryReloadTranslations(out string? error)
