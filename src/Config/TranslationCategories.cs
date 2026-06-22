@@ -41,8 +41,8 @@ internal static class TranslationCategories
         new CategoryDef(TranslationCategory.VanillaCosmetics, "CosmeticosVanilla.txt", "Translate Vanilla Cosmetics",
             "Vanilla cosmetic names (they come from assetName; there is no official translation for them)."),
         new CategoryDef(TranslationCategory.XuaunCosmetics, "CosmeticosXuaun.txt", "Translate Xuaun Cosmetics",
-            "Cosmetic names from Xuaun mods (XuaunCosmetics, RepoPride)."),
+            "Cosmetic names from Xuaun mods (XuaunCosmetics, RepoPride, FortniteSemibot, YoshyCarry, MonsterCosmetics)."),
         new CategoryDef(TranslationCategory.ModdedCosmetics, "CosmeticosModded.txt", "Translate Modded Cosmetics (Others)",
-            "Cosmetic names from other mods (MoreHead, BASICS, etc.)."),
+            "Cosmetic names from other mods (e.g.: MoreHead, BASICS, etc.)."),
     };
 }

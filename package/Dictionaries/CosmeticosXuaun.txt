@@ -1,5 +1,20 @@
-// Roupas do Xuaun (XuaunCosmetics + RepoPride) — nomes em pt-BR (XUnity.AutoTranslator)
+// Roupas do Xuaun (XuaunCosmetics + RepoPride + FortniteSemibot + YoshiCarry + MonsterCosmetics) — nomes em pt-BR (XUnity.AutoTranslator)
 // Formato: Texto original=Tradução. Apague qualquer linha que prefira manter em inglês.
+
+// ── FortniteSemibot ──────────────────────────────────────────────────────────
+Fortnite Semibot=Semibot do Fortnite
+Inflatable Hammer=Martelo Inflável
+BingBong=BingBong
+Pupper Slippers=Pantufas de Cachorrinho
+Water Waddlers=Pantufas de Patinho
+Momo Messenger=Momo Mensageiro
+Chicken Chonkers=Pantufas de Galinha
+Chomp Stompers=Pantufas Mordedoras
+Elf Helpers=Sapatos de Elfo
+Meow-Soles=Pantufas de Gatinho
+Piggy Slippies=Pantufas de Porquinho
+Polar Patrollers=Pantufas Polar
+Stingin' Slippies=Pantufas de Abelha
 
 // ── XuaunCosmetics — Yoshi ───────────────────────────────────────────────────
 Baby Blue Yoshi=Yoshi Azul Bebê
@@ -228,7 +243,7 @@ Enby Skeleton=Esqueleto - Não-Binárie
 Enby Sleepless=Sem Sono - Não-Binárie
 Enby Spray Paint=Tinta Spray - Não-Binárie
 Enby Stripe=Listras - Não-Binárie
-Enby War Paint=Pintura de Guerra - Não-Binári
+Enby War Paint=Pintura de Guerra - Não-Binárie
 Intersex Camo=Camuflagem - Intersexo
 Intersex Checkers=Xadrez - Intersexo
 Intersex Cracks=Rachaduras - Intersexo
@@ -575,3 +590,66 @@ Yoshi Head Hat=Chapéu de Cabeça do Yoshi
 Zoey hair=Cabelo da Zoey
 Zote Mask - Repo=Máscara do Zote - Repo
 Zote Mask=Máscara do Zote
+
+// ── YoshiCarry ───────────────────────────────────────────────────────────────
+Blue Yoshi=Yoshi Azul
+Blue Yoshi Carrying=Yoshi Azul te Carregando
+Green Yoshi=Yoshi Verde
+Green Yoshi Carrying=Yoshi Verde te Carregando
+Red Yoshi=Yoshi Vermelho
+Red Yoshi Carrying=Yoshi Vermelho te Carregando
+Yellow Yoshi=Yoshi Amarelo
+Yellow Yoshi Carrying=Yoshi Amarelo te Carregando
+
+// ── MonsterCosmetics ─────────────────────────────────────────────────────────
+// Lado esquerdo = assetName in-game (nomes oficiais dos monstros, conforme renomeados no mod).
+// Lado direito = tradução adotada no HUD.tsv (ENEMY.*). Ordenado pelo nome in-game.
+Apex Predator - beak=Predador Supremo - bico
+Banger - bomb=Bombardeiro - bomba
+Banger - dynamite=Bombardeiro - dinamite
+Bella - bell=Bella - sino
+Bella - braid=Bella - trança
+Bella - hair bow=Bella - laço de cabelo
+Birthday Boy - balloon=Aniversariante - balão
+Birthday Boy - birthday hat=Aniversariante - chapéu de aniversário
+Birthday Boy - hair=Aniversariante - cabelo
+Bowtie - bowtie=Gravatinha - gravata-borboleta
+Chef - chef's hat=Cozinheiro Chef - chapéu de chef
+Chef - cleaver=Cozinheiro Chef - cutelo
+Chef - foot=Cozinheiro Chef - pé
+Chef - mustache=Cozinheiro Chef - bigode
+Cleanup Crew=Esquadrão de Limpeza
+Clown - hat=Palhaço - chapéu
+Clown - nose=Palhaço - nariz
+Clown - shoe=Palhaço - sapato
+Elsa - ears=Elsa - orelhas
+Elsa - tail=Elsa - rabo
+Elsa - tongue=Elsa - língua
+Gambit - wheel=Roda da Fortuna - roda
+Headgrab - tongue=Agarrador de Cabeça - língua
+Heart Hugger - head=Abraça-Coração - cabeça
+Heart Hugger - vines=Abraça-Coração - vinhas
+Huntsman - gun=Caçador - arma
+Huntsman - hat=Caçador - chapéu
+Huntsman - hat with eye pad=Caçador - chapéu com tapa-olho
+Huntsman - shoe=Caçador - sapato
+Loom - dress=Assombração - vestido
+Loom - hair=Assombração - cabelo
+Oogly - hair=Oogly - cabelo
+Oogly - teeth=Oogly - dentes
+Reaper=Ceifadora
+Reaper - dress=Ceifadora - vestido
+Reaper - hair=Ceifadora - cabelo
+Reaper - pumpkin head=Ceifadora - cabeça de abóbora
+Reaper - shoe=Ceifadora - sapato
+Robe=Robe
+Robe - robe hands=Robe - mãos
+Rugrat - diaper=Pirralho - fralda
+Shadow Child=Criança Sombria
+Shadow Child - head=Criança Sombria - cabeça
+Spewer - tentacle=Cuspidor - tentáculos
+Tick - lips=Carrapato - lábios
+Trudge - armor=Arrastado - armadura
+Trudge - right eye=Arrastado - olho direito
+Trudge - shoe=Arrastado - sapato
+Trudge - shoulder armor=Arrastado - armadura de ombro

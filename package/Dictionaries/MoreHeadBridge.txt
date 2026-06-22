@@ -180,6 +180,7 @@ Bouncy=Balançando
 // ── 7. Mini-Semibot (popup) ─────────────────────────────────────────
 State Effects=Efeitos de Estado
 Footstep Sounds=Sons de Passos
+Flashlight=Lanterna
 Behavior=Comportamento
 Behaviour=Comportamento
 Position=Posição

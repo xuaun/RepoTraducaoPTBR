@@ -1,28 +1,28 @@
 # REPO — Tradução pt-BR
 
-Temos aqui uma tradução em **português (do Brasil)** para R.E.P.O.
-Esta tradução funciona bem com a interface do próprio jogo (v0.4.4) e inclui nomes de cosméticos do próprio jogo, além de traduzir também alguns outros mods (que costumo usar e que fiz).
+Tradução em **português (do Brasil)** para [R.E.P.O.](https://store.steampowered.com/app/3241660/REPO/) (`The Retrieve, Extract and Profit Operation` => `A Operação de Recuperação, Extração e Lucro`) — interface do jogo, cosméticos vanilla/modded e alguns mods — com liga/desliga por categoria no jogo.
+
 Caso queira configurar dentro do próprio jogo, com opções por categoria, instale o mod de configuração [REPOConfig](https://thunderstore.io/c/repo/p/nickklmao/REPOConfig/) junto com a tradução.
 
 A interface vanilla é traduzida pelo **sistema de localização oficial do jogo** (as mesmas tabelas dos idiomas oficiais, aplicadas em memória — cobertura completa de menus, HUD, tutorial, itens, inimigos e luas). O resto — cosmetics, mods e a tradução automática — usa o XUnity.AutoTranslator.
 
 ## Instalação
 
-1. Instale pelo mod manager (r2modman / Thunderstore) — o **XUnity.AutoTranslator** vem junto como dependência.
+1. Instale pelo mod manager (r2modman / Thunderstore) — o **[XUnity.AutoTranslator](https://thunderstore.io/c/repo/p/RTLC/XUnity_AutoTranslator/)** vem junto como dependência.
 2. Pronto. As traduções são aplicadas ao vivo, sem tocar nos arquivos do jogo ou dos mods —
    o plugin configura o AutoTranslator (idioma `pt`, caminhos e endpoint) sozinho.
 
 ## Categorias (cada uma com seu liga/desliga)
 
-| Opção | O que cobre |
-| --- | --- |
-| Translate Game (Traduzir Jogo) | Menus, HUD, configurações e controles (localização nativa + dicionário). |
-| Translate Vanilla Cosmetics (Traduzir Roupas Vanilla) | Nomes dos ~230 cosméticos do jogo. |
-| Translate Xuaun's Cosmetics (Traduzir Roupas do Xuaun) | Cosméticos dos meus mods ([XuaunCosmetics](https://thunderstore.io/c/repo/p/Xuaun/XuaunCosmetics/), [RepoPride](https://thunderstore.io/c/repo/p/Xuaun/RepoPride/)). |
-| Translate Modded Cosmetics (Traduzir Roupas Modded) | Cosméticos de outros mods ([MoreHead](https://thunderstore.io/c/repo/p/YMC_MHZ/MoreHead/), [MoreHead_BASICS](https://thunderstore.io/c/repo/p/animatedbeing/MoreHead_BASICS/), etc.). |
-| Translate MoreHead Bridge (Traduzir MoreHead Bridge) | Toda a UI do meu mod [MoreHead Bridge](https://thunderstore.io/c/repo/p/Xuaun/MoreHeadBridge/) (tabs, Customizer, Mini-Semibot, Tools…). |
-| Translate Mod Configs (Traduzir Configs de Mods) | Menus de configuração de alguns mods pelo REPOConfig ([CustomGrabColor](https://thunderstore.io/c/repo/p/Enchanted_Games/CustomGrabColor/), [Mimic](https://thunderstore.io/c/repo/p/eth9n/Mimic/), etc.). |
-| Translate the Rest (Traduzir o Resto — Automático) | Tradução automática (Google) para o que os dicionários não cobrem. -> Desligado por padrão. |
+| Opção                                                  | O que cobre                                                                                                                                                                                                                                                                                                                                                                                       |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Translate Game (Traduzir Jogo)                         | Menus, HUD, configurações e controles (localização nativa + dicionário).                                                                                                                                                                                                                                                                                                                          |
+| Translate Vanilla Cosmetics (Traduzir Roupas Vanilla)  | Nomes dos ~230 cosméticos do jogo.                                                                                                                                                                                                                                                                                                                                                                |
+| Translate Xuaun's Cosmetics (Traduzir Roupas do Xuaun) | Cosméticos dos meus mods ([XuaunCosmetics](https://thunderstore.io/c/repo/p/Xuaun/XuaunCosmetics/), [RepoPride](https://thunderstore.io/c/repo/p/Xuaun/RepoPride/), [FortniteSemibot](https://thunderstore.io/c/repo/p/Xuaun/FortniteSemibot/), [YoshiCarry](https://thunderstore.io/c/repo/p/Xuaun/YoshiCarry/) + [MonsterCosmetics](https://thunderstore.io/c/repo/p/Xuaun/MonsterCosmetics/)). |
+| Translate Modded Cosmetics (Traduzir Roupas Modded)    | Cosméticos de outros mods (Ex.: [MoreHead](https://thunderstore.io/c/repo/p/YMC_MHZ/MoreHead/), [MoreHead_BASICS](https://thunderstore.io/c/repo/p/animatedbeing/MoreHead_BASICS/), etc.).                                                                                                                                                                                                        |
+| Translate MoreHead Bridge (Traduzir MoreHead Bridge)   | Toda a UI do meu mod [MoreHead Bridge](https://thunderstore.io/c/repo/p/Xuaun/MoreHeadBridge/) (tabs, Customizer, Mini-Semibot, Tools…).                                                                                                                                                                                                                                                          |
+| Translate Mod Configs (Traduzir Configs de Mods)       | Menus de configuração de alguns mods pelo REPOConfig ([CustomGrabColor](https://thunderstore.io/c/repo/p/Enchanted_Games/CustomGrabColor/), [Mimic](https://thunderstore.io/c/repo/p/eth9n/Mimic/), etc.).                                                                                                                                                                                        |
+| Translate the Rest (Traduzir o Resto — Automático)     | Tradução automática (Google) para o que os dicionários não cobrem. -> Desligado por padrão.                                                                                                                                                                                                                                                                                                       |
 
 Todas as opções aplicam automaticamente (sem precisar reiniciar) — inclusive a tradução automática, que troca o endpoint do AutoTranslator em runtime e re-traduz o que está na tela.
 
@@ -34,3 +34,8 @@ Todas as opções aplicam automaticamente (sem precisar reiniciar) — inclusive
   (formato oficial do jogo: `CHAVE<TAB>texto`).
 - Faltou algo? Com o pacote instalado, tudo que aparece sem tradução é listado em
   `BepInEx/config/Translation/pt/Text/_AutoGeneratedTranslations.txt` — copie a linha para o dicionário da categoria certa e preencha a tradução (aplica na hora, com o jogo aberto).
+
+## Credits
+
+- **Xuaun** — MoreHead Bridge
+- **bbepis** — [XUnity.AutoTranslator](https://thunderstore.io/c/repo/p/RTLC/XUnity_AutoTranslator/)
