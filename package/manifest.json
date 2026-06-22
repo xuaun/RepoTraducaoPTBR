@@ -1,6 +1,6 @@
 {
   "name": "REPO_Traducao_ptBR",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/xuaun/RepoTraducaoPTBR",
   "description": "Tradução para português do R.E.P.O. — jogo, cosméticos vanilla/modded e alguns mods — com toggles por categoria.",
   "dependencies": [
