@@ -2,7 +2,7 @@
 
 Tradução em **português (do Brasil)** para [R.E.P.O.](https://store.steampowered.com/app/3241660/REPO/) (`The Retrieve, Extract and Profit Operation` => `A Operação de Recuperação, Extração e Lucro`) — interface do jogo, cosméticos vanilla/modded e alguns mods — com liga/desliga por categoria no jogo.
 
-- **[Página do mod (Thunderstore)](https://thunderstore.io/c/repo/p/Xuaun/RepoTraducaoPTBR/)**
+- **[Página do mod (Thunderstore)](https://thunderstore.io/c/repo/p/Xuaun/REPO_Traducao_ptBR/)**
 - **Como funciona, categorias e personalização:** veja o [README do pacote](package/README.md) (o mesmo exibido na Thunderstore).
 
 ## Estrutura do repositório
@@ -15,6 +15,7 @@ package/    Esqueleto do pacote Thunderstore: manifest.json, README, icon e
 ```
 
 Os textos da tradução ficam em:
+
 - `package/plugins/Dictionaries/*.txt` — dicionários do XUnity.AutoTranslator
   (formato `Original=Tradução`, um arquivo por categoria/toggle).
 - `package/plugins/Localizations/{Menu,HUD,Game}.tsv` — tabelas de localização
