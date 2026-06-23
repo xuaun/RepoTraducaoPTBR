@@ -232,6 +232,38 @@ Remove unused level weight multipliers=Remover multiplicadores de peso de nível
 Re-add missing groups=Readicionar grupos ausentes
 Prevent enemy spawning=Impedir spawn de Monstros
 
+// ── Monster Cosmetics (Monster Cosmetics) ─────────────────────────────────
+Bomb & Dynamite=Bomba e Dinamite
+Balloon=Balão
+Behaviours Enabled=Comportamentos Ativados
+Pulse Speed=Velocidade da Pulsação
+Pulse Strength=Intensidade da Pulsação
+Hits To Pop=Acertos para Estourar
+Damage To Pop=Dano para Estourar
+Respawn Seconds=Segundos para Reaparecer
+Reinflate Seconds=Segundos para Reinflar
+Pop Particles=Partículas ao Estourar
+
+// ── Yoshi Carry ───────────────────────────────────────────────────────────────
+Sound Toggles=Sons (Liga/Desliga)
+Sound Chances (%)=Chances de Som (%)
+Yoshi Sounds Enabled=Sons do Yoshi Ativados
+Yoshi Sound Volume=Volume dos Sons do Yoshi
+Min Seconds Between Sounds=Segundos Mínimos Entre Sons
+Play Hurt Sound=Tocar Som de Dano
+Play Death Sound=Tocar Som de Morte
+Play Equip Sound=Tocar Som ao Equipar
+Play Extract Sound=Tocar Som na Extração
+Play Grab Sound=Tocar Som ao Agarrar
+Jump Sound Chance=Chance de Som ao Pular
+Double Jump Sound Chance=Chance de Som no Pulo Duplo
+Hurt Sound Chance=Chance de Som de Dano
+Death Sound Chance=Chance de Som de Morte
+Equip Sound Chance=Chance de Som ao Equipar
+Extract Sound Chance=Chance de Som na Extração
+Grab Sound Chance=Chance de Som ao Agarrar
+Hide Bridged Yoshi Duplicates=Ocultar Duplicatas Bridge do Yoshi
+
 // ── MoreHead (modificado): nomes dos trajes ───────────────────────────────────
 Outfit1Label=Rótulo do Traje 1
 Outfit2Label=Rótulo do Traje 2
@@ -260,6 +292,8 @@ More Head Bridge=More Head Bridge
 More Head Utilities=More Head Utilities
 REPO Lib=REPO Lib
 Mimics=Mimics
+Repo Monsters Cosmetics Behaviour=Repo Monsters Cosmetics Behaviour
+Yoshi Sounds=Yoshi Sounds
 espeak TTS=espeak TTS
 X Unity Resource Redirector=X Unity Resource Redirector
 

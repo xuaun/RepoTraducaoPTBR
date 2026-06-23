@@ -600,6 +600,9 @@ Red Yoshi=Yoshi Vermelho
 Red Yoshi Carrying=Yoshi Vermelho te Carregando
 Yellow Yoshi=Yoshi Amarelo
 Yellow Yoshi Carrying=Yoshi Amarelo te Carregando
+Custom Yoshi=Yoshi Personalizado
+Custom Yoshi Carrying=Yoshi Personalizado te Carregando
+Custom Yoshi Hat=Chapéu de Yoshi Personalizado
 
 // ── MonsterCosmetics ─────────────────────────────────────────────────────────
 // Lado esquerdo = assetName in-game (nomes oficiais dos monstros, conforme renomeados no mod).
