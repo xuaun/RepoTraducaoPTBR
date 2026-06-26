@@ -35,6 +35,7 @@ OUTFIT=ROUPA
 OUTFITS=ROUPAS
 Type to Search...=Digite para buscar...
 Ctrl+click \= Fav\nAlt+click \= Hide\nShift+click \= Edit=Ctrl+clique \= Fav\nAlt+clique \= Ocultar\nShift+clique \= Editar
+Ctrl+click \= Fav\nAlt+click \= Hide=Ctrl+clique \= Fav\nAlt+clique \= Ocultar
 Bridge Border Highlight=Destaque de Borda Bridge
 Modded Border Highlight=Destaque de Borda Modded
 Type to search cosmetics here :)=Digite aqui para buscar cosméticos :)
@@ -114,6 +115,8 @@ Allow Custom Color=Permitir Cor Personalizada
 Allow Animated Color=Permitir Cor Animada
 Original Mod color=Cor original do mod
 Fixes=Correções
+Add to Blacklist=Adicionar à Lista de Bloqueio
+Vanilla Position Fixes=Ajustes de Posição Vanilla
 Remove Physics=Remover Física
 Loop Animation=Animação em Loop
 Equip Animation=Animação ao Equipar
@@ -143,6 +146,12 @@ React when dead=Reagir quando morto
 React when alive=Reagir quando vivo
 Hide when equipped:=Ao equipar → Ocultar:
 Hide when condition:=Condição para Ocultar:
+Hide when pose:=Ocultar na Pose:
+Standing=De pé
+Crouching=Agachado
+Crawling=Rastejando
+Tumbling=Tombado
+Hide with (from mod):=Ocultar com (de outro mod):
 Custom color=Cor personalizada
 Fix Crown=Corrigir Coroa
 sr:"^(?<name>.+)  \(auto\)$"=${name}  (auto)
@@ -164,6 +173,10 @@ seconds per hue loop=segundos por ciclo de matiz
 seconds per step=segundos por etapa
 Custom Colors=Cores Personalizadas
 Color Animations=Cores Animadas
+Section=Seção
+Red=Vermelho
+Green=Verde
+Blue=Azul
 
 // ── 6. Seguidores (World) e variantes ─────────────────────────────────────────
 sr:"^(?<name>.+) - Pride Colors$"=${name} - Cores do Orgulho

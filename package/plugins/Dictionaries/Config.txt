@@ -21,6 +21,9 @@ Developer Mode=Modo Desenvolvedor
 Vanilla Developer Mode=Modo Desenvolvedor Vanilla
 Blacklist=Lista de Bloqueio
 Blacklist Mode=Modo da Lista de Bloqueio
+Blacklist On More Head=Bloquear no MoreHead
+NotLoadIngame=Não Carregar no Jogo
+LoadOnHiddenMenu=Carregar no Menu Ocultos
 Experimental=Experimental
 <NONE>=<NADA>
 
