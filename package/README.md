@@ -2,6 +2,22 @@
 
 Tradução em **português (do Brasil)** para [R.E.P.O.](https://store.steampowered.com/app/3241660/REPO/) (`The Retrieve, Extract and Profit Operation` => `A Operação de Recuperação, Extração e Lucro`) — interface do jogo, cosméticos vanilla/modded e alguns mods — com liga/desliga por categoria no jogo.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xuaun/RepoTraducaoPTBR/main/img/menu.png" alt="Menu principal do jogo" title="Menu principal do jogo" width="640">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xuaun/RepoTraducaoPTBR/main/img/tutorial.png" alt="Tutorial do jogo" title="Tutorial do jogo" width="640">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xuaun/RepoTraducaoPTBR/main/img/taxman.png" alt="Diálogo do Taxman (Sr. Fiscal)" title="Diálogo do Taxman (Sr. Fiscal)" width="640">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/xuaun/RepoTraducaoPTBR/main/img/money.png" alt="Dinheiro usando R$" title="Dinheiro usando R$" width="640">
+</p>
+
 Caso queira configurar dentro do próprio jogo, com opções por categoria, instale o mod de configuração [REPOConfig](https://thunderstore.io/c/repo/p/nickklmao/REPOConfig/) junto com a tradução.
 
 A interface vanilla é traduzida pelo **sistema de localização oficial do jogo** (as mesmas tabelas dos idiomas oficiais, aplicadas em memória — cobertura completa de menus, HUD, tutorial, itens, inimigos e luas). O resto — cosmetics, mods e a tradução automática — usa o XUnity.AutoTranslator.
